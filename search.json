@@ -1,10 +1,31 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "docs/project-plan.html",
+    "href": "docs/project-plan.html",
+    "title": "Project Plan: Digital Ethics Essay on Piracy",
     "section": "",
-    "text": "About this site"
+    "text": "Arguments for piracy: - Wider (equal) access to content in restricted areas (games banned in Australia, other censored content) - Wider distribution of content\nArguments against piracy: - Creators lose income - Are not incentivised to create as much content\n\n\n\n\nArguments for piracy: - Means for obtaining original efforts (manga, Blood, Taylor Swift catalogue) - Saves money (until costs become negligible to income) - Content fragmented across multiple platforms - Access to censored content and free media (Russia and China) - Archiving and saving information so that it doesn’t get forgotten (Anna’s Archive)\nArguments against piracy: - Unfair to people who follow the law (paying streaming fees) - Unregulated and risky: viruses and scams - Piracy sites need income too - Promote gambling\n\n\n\n\n\nRenting (subscription) vs. owning\nMedia platform dependency: the media you purchase is locked into the platform\nIf a platform shuts down, what happens to the media you “own”?\nStop Killing Games initiative: online games can’t be played when providers shut down servers\n\nWikipedia: Stop Killing Games\n\n\n\n\n\n\n\nWhat aspects of a media piece can you copyright, and what makes it distinct enough to be copyrightable?\n\nReference video\n\nDoes the size of the creator affect the morality of pirating? Is it okay to pirate from commercially successful companies vs. indie studios? Where is the limit?\n\n\n\n\n\n\n\nQuarto website (main deliverable)\n3000-4000 words\nMinimum 5 credible sources (good mix)\nDeclare any AI usage\n5-minute presentation of the website\nContribution statement\n\n\n\n\n\n\nThree perspectives, each person takes one\nDraft via pull requests\nWrite in bullet points initially\nDeadline: 5 June 2026"
+  },
+  {
+    "objectID": "docs/project-plan.html#perspectives",
+    "href": "docs/project-plan.html#perspectives",
+    "title": "Project Plan: Digital Ethics Essay on Piracy",
+    "section": "",
+    "text": "Arguments for piracy: - Wider (equal) access to content in restricted areas (games banned in Australia, other censored content) - Wider distribution of content\nArguments against piracy: - Creators lose income - Are not incentivised to create as much content\n\n\n\n\nArguments for piracy: - Means for obtaining original efforts (manga, Blood, Taylor Swift catalogue) - Saves money (until costs become negligible to income) - Content fragmented across multiple platforms - Access to censored content and free media (Russia and China) - Archiving and saving information so that it doesn’t get forgotten (Anna’s Archive)\nArguments against piracy: - Unfair to people who follow the law (paying streaming fees) - Unregulated and risky: viruses and scams - Piracy sites need income too - Promote gambling\n\n\n\n\n\nRenting (subscription) vs. owning\nMedia platform dependency: the media you purchase is locked into the platform\nIf a platform shuts down, what happens to the media you “own”?\nStop Killing Games initiative: online games can’t be played when providers shut down servers\n\nWikipedia: Stop Killing Games\n\n\n\n\n\n\n\nWhat aspects of a media piece can you copyright, and what makes it distinct enough to be copyrightable?\n\nReference video\n\nDoes the size of the creator affect the morality of pirating? Is it okay to pirate from commercially successful companies vs. indie studios? Where is the limit?"
+  },
+  {
+    "objectID": "docs/project-plan.html#deliverables",
+    "href": "docs/project-plan.html#deliverables",
+    "title": "Project Plan: Digital Ethics Essay on Piracy",
+    "section": "",
+    "text": "Quarto website (main deliverable)\n3000-4000 words\nMinimum 5 credible sources (good mix)\nDeclare any AI usage\n5-minute presentation of the website\nContribution statement"
+  },
+  {
+    "objectID": "docs/project-plan.html#work-division-and-timeline",
+    "href": "docs/project-plan.html#work-division-and-timeline",
+    "title": "Project Plan: Digital Ethics Essay on Piracy",
+    "section": "",
+    "text": "Three perspectives, each person takes one\nDraft via pull requests\nWrite in bullet points initially\nDeadline: 5 June 2026"
   },
   {
     "objectID": "index.html",
@@ -12,5 +33,12 @@
     "title": "Piracy",
     "section": "",
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
   }
 ]
