@@ -12,7 +12,7 @@ website:
 format:
   html:
     theme:
-      - cosmo
+      - slate
       - brand
     css: styles.css
     toc: true
