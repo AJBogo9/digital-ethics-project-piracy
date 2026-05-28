@@ -10,6 +10,8 @@ website:
       - about.qmd
       - href: creators.qmd
         text: The Creator's Perspective
+      - href: ownership.qmd
+        text: Ownership
 
 format:
   html:
