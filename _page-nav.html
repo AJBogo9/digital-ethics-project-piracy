@@ -1,0 +1,55 @@
+<script>
+(function () {
+  document.addEventListener('DOMContentLoaded', function () {
+    var navLinks = Array.from(
+      document.querySelectorAll('.navbar-nav .nav-link[href]')
+    ).filter(function (a) { return !a.closest('.dropdown-menu'); });
+
+    var activeIndex = navLinks.findIndex(function (a) {
+      return a.classList.contains('active');
+    });
+    if (activeIndex === -1) return;
+
+    var prev = activeIndex > 0 ? navLinks[activeIndex - 1] : null;
+    var next = activeIndex < navLinks.length - 1 ? navLinks[activeIndex + 1] : null;
+    if (!prev && !next) return;
+
+    var nav = document.createElement('nav');
+    nav.className = 'page-nav-footer';
+    nav.setAttribute('aria-label', 'Page navigation');
+
+    var prevSlot = document.createElement('span');
+    if (prev) {
+      var pa = document.createElement('a');
+      pa.href = prev.getAttribute('href');
+      pa.className = 'page-nav-btn page-nav-prev';
+      pa.innerHTML =
+        '<span class="page-nav-arrow">&#8592;</span>' +
+        '<span class="page-nav-label">' +
+          '<span class="page-nav-hint">Previous</span>' +
+          '<span class="page-nav-title">' + prev.textContent.trim() + '</span>' +
+        '</span>';
+      prevSlot.appendChild(pa);
+    }
+    nav.appendChild(prevSlot);
+
+    var nextSlot = document.createElement('span');
+    if (next) {
+      var na = document.createElement('a');
+      na.href = next.getAttribute('href');
+      na.className = 'page-nav-btn page-nav-next';
+      na.innerHTML =
+        '<span class="page-nav-label">' +
+          '<span class="page-nav-hint">Next</span>' +
+          '<span class="page-nav-title">' + next.textContent.trim() + '</span>' +
+        '</span>' +
+        '<span class="page-nav-arrow">&#8594;</span>';
+      nextSlot.appendChild(na);
+    }
+    nav.appendChild(nextSlot);
+
+    var main = document.querySelector('main.content');
+    if (main) main.appendChild(nav);
+  });
+})();
+</script>

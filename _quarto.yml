@@ -17,6 +17,7 @@ format:
     theme: slate
     css: styles.css
     toc: true
+    include-after-body: _page-nav.html
 
 
 
