@@ -8,6 +8,8 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+      - href: consumers.qmd
+        text: The Consumer's Perspective
       - href: creators.qmd
         text: The Creator's Perspective
       - href: ownership.qmd
