@@ -8,6 +8,8 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+      - href: creators.qmd
+        text: The Creator's Perspective
 
 format:
   html:
