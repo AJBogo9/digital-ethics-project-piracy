@@ -5,15 +5,16 @@ website:
   title: "Piracy"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+      - href: consumers.qmd
+        text: Consumer
+      - href: creators.qmd
+        text: Creator
+      - href: ownership.qmd
+        text: Ownership
 
 format:
   html:
-    theme:
-      - slate
-      - brand
+    theme: slate
     css: styles.css
     toc: true
 
