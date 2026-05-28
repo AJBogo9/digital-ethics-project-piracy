@@ -1,21 +1,24 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "Piracy"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+  title: "Introduction to Pirate Shipping"
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - text: "Welcome Aboard"
+        href: index.qmd
+      - text: "Consumer Training"
+        href: consumers.qmd
+      - text: "The Captain's Verdict"
+        href: summary.qmd
 
 format:
   html:
-    theme:
-      - slate
-      - brand
-    css: styles.css
+    theme: flatly
     toc: true
-
-
-
+    includes:
+      before_body: header.html
+      in_footer: footer.html

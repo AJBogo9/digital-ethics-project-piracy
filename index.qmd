@@ -1,7 +1,17 @@
 ---
-title: "Piracy"
+title: "Introduction to Pirate Shipping"
 ---
 
-This is a Quarto website.
+# Welcome Aboard
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Welcome to your introductory course on life aboard the pirate ship of media piracy.
+
+In this site, we treat the world of media access like a seafaring adventure. You will explore the reasons people pirate media, the ethical and practical risks involved, and how these choices affect creators, consumers, and culture.
+
+## Course Modules
+
+- **Module 1: The Call of the Sea** — Why some people turn to piracy, from fragmented platforms to archiving censored works.
+- **Module 2: The Hidden Reefs** — Why piracy can be unfair, unsafe, and economically complicated.
+- **The Captain's Verdict** — A final summary that weighs both sides and asks what kind of future we want.
+
+Navigate the sidebar to jump into each lesson and build your own understanding of this complex topic.

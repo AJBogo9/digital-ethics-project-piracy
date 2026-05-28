@@ -2,4 +2,18 @@
 title: "About"
 ---
 
-About this site
+# About This Course
+
+This website is structured as a beginner-friendly course on media piracy using a pirate ship metaphor.
+
+The lessons are designed to help students understand:
+
+- why people access media outside legal channels,
+- the consequences of fragmented streaming platforms,
+- the risks of unregulated piracy sites,
+- how archiving and censorship shape access,
+- and the economic pressures that affect creators and consumers.
+
+## Learn with a Story
+
+Each page is a lesson in a larger narrative: living on a pirate ship while navigating modern media oceans. You will see arguments both for and against piracy, then decide where you stand.
