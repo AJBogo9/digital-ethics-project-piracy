@@ -70,6 +70,56 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<!-- DNS + TLS handshake for Google Fonts done before CSS requests them -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+
+<!-- Load fonts as a <link> instead of CSS @import to avoid a blocking round-trip -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pirata+One&amp;family=Cinzel:wght@400;600;700;900&amp;family=Cinzel+Decorative:wght@400;700&amp;family=IM+Fell+English:ital@0;1&amp;family=Uncial+Antiqua&amp;display=swap">
+
+<!-- Preload the hero ship image on the landing page only -->
+<script>
+if (window.location.pathname === '/' || /index\.html$/.test(window.location.pathname)) {
+  var l = document.createElement('link');
+  l.rel = 'preload';
+  l.as = 'image';
+  l.href = 'images/galleon.jpg';
+  document.head.appendChild(l);
+}
+</script>
+
+<!-- Speculation Rules: prerender same-origin pages on hover (Chrome 109+) -->
+<script type="speculationrules">
+{
+  "prerender": [{
+    "where": { "and": [
+      { "href_matches": "/*" },
+      { "not": { "href_matches": "/index.html" } }
+    ]},
+    "eagerness": "moderate"
+  }]
+}
+</script>
+
+<!-- Prefetch on hover fallback for browsers without Speculation Rules support -->
+<script>
+(function () {
+  if (HTMLScriptElement.supports && HTMLScriptElement.supports('speculationrules')) return;
+  var prefetched = new Set();
+  document.addEventListener('mouseover', function (e) {
+    var a = e.target.closest('a[href]');
+    if (!a) return;
+    var href = a.href;
+    if (!href || a.origin !== location.origin) return;
+    if (prefetched.has(href)) return;
+    prefetched.add(href);
+    var l = document.createElement('link');
+    l.rel = 'prefetch';
+    l.href = href;
+    document.head.appendChild(l);
+  });
+})();
+</script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -258,6 +308,61 @@ ul.task-list li input[type="checkbox"] {
 </section>
 
 </main> <!-- /main -->
+<script>
+(function () {
+  document.addEventListener('DOMContentLoaded', function () {
+    var navLinks = Array.from(
+      document.querySelectorAll('.navbar-nav .nav-link[href]')
+    ).filter(function (a) { return !a.closest('.dropdown-menu'); });
+
+    var activeIndex = navLinks.findIndex(function (a) {
+      return a.classList.contains('active');
+    });
+    if (activeIndex === -1) return;
+
+    var prev = activeIndex > 0 ? navLinks[activeIndex - 1] : null;
+    var next = activeIndex < navLinks.length - 1 ? navLinks[activeIndex + 1] : null;
+    if (!prev && !next) return;
+
+    var nav = document.createElement('nav');
+    nav.className = 'page-nav-footer';
+    nav.setAttribute('aria-label', 'Page navigation');
+
+    var prevSlot = document.createElement('span');
+    if (prev) {
+      var pa = document.createElement('a');
+      pa.href = prev.getAttribute('href');
+      pa.className = 'page-nav-btn page-nav-prev';
+      pa.innerHTML =
+        '<span class="page-nav-arrow">&#8592;</span>' +
+        '<span class="page-nav-label">' +
+          '<span class="page-nav-hint">Previous</span>' +
+          '<span class="page-nav-title">' + prev.textContent.trim() + '</span>' +
+        '</span>';
+      prevSlot.appendChild(pa);
+    }
+    nav.appendChild(prevSlot);
+
+    var nextSlot = document.createElement('span');
+    if (next) {
+      var na = document.createElement('a');
+      na.href = next.getAttribute('href');
+      na.className = 'page-nav-btn page-nav-next';
+      na.innerHTML =
+        '<span class="page-nav-label">' +
+          '<span class="page-nav-hint">Next</span>' +
+          '<span class="page-nav-title">' + next.textContent.trim() + '</span>' +
+        '</span>' +
+        '<span class="page-nav-arrow">&#8594;</span>';
+      nextSlot.appendChild(na);
+    }
+    nav.appendChild(nextSlot);
+
+    var main = document.querySelector('main.content');
+    if (main) main.appendChild(nav);
+  });
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
