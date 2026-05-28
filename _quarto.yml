@@ -5,13 +5,10 @@ website:
   title: "Piracy"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
       - href: consumers.qmd
-        text: The Consumer's Perspective
+        text: Consumer
       - href: creators.qmd
-        text: The Creator's Perspective
+        text: Creator
       - href: ownership.qmd
         text: Ownership
 

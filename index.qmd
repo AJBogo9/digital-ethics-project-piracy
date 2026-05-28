@@ -1,7 +1,176 @@
 ---
-title: "Piracy"
+title: ""
+toc: false
 ---
 
-This is a Quarto website.
+```{=html}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Source+Serif+4:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+<style>
+  .landing-hero {
+    padding: 5rem 0 3.5rem;
+    border-bottom: 1px solid rgba(232, 232, 232, 0.12);
+    margin-bottom: 3.5rem;
+  }
+
+  .landing-eyebrow {
+    font-family: 'Source Serif 4', serif;
+    font-weight: 300;
+    font-size: 0.8rem;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: rgba(232, 232, 232, 0.45);
+    margin-bottom: 1.5rem;
+  }
+
+  .landing-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: clamp(2.4rem, 5vw, 3.8rem);
+    line-height: 1.1;
+    color: #e8e8e8;
+    margin: 0 0 2rem;
+    max-width: 720px;
+  }
+
+  .landing-title em {
+    font-style: italic;
+    color: rgba(232, 232, 232, 0.65);
+  }
+
+  .landing-intro {
+    font-family: 'Source Serif 4', serif;
+    font-size: 1.05rem;
+    line-height: 1.75;
+    color: rgba(232, 232, 232, 0.72);
+    max-width: 640px;
+    font-weight: 300;
+  }
+
+  .perspectives-label {
+    font-family: 'Source Serif 4', serif;
+    font-weight: 300;
+    font-size: 0.75rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: rgba(232, 232, 232, 0.35);
+    margin-bottom: 1.25rem;
+  }
+
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1px;
+    background: rgba(232, 232, 232, 0.1);
+    border: 1px solid rgba(232, 232, 232, 0.1);
+    margin-bottom: 4rem;
+  }
+
+  .perspective-card {
+    display: block;
+    padding: 2rem 1.75rem;
+    background: #272b30;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    transition: background 0.2s ease;
+  }
+
+  .perspective-card::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #e8e8e8;
+    transition: width 0.3s ease;
+  }
+
+  .perspective-card:hover {
+    background: #2e3338;
+    text-decoration: none;
+  }
+
+  .perspective-card:hover::after {
+    width: 100%;
+  }
+
+  .card-number {
+    font-family: 'Playfair Display', serif;
+    font-size: 0.75rem;
+    color: rgba(232, 232, 232, 0.25);
+    letter-spacing: 0.1em;
+    margin-bottom: 1.25rem;
+  }
+
+  .card-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #e8e8e8;
+    line-height: 1.3;
+    margin-bottom: 0.85rem;
+  }
+
+  .card-teaser {
+    font-family: 'Source Serif 4', serif;
+    font-size: 0.875rem;
+    font-weight: 300;
+    line-height: 1.6;
+    color: rgba(232, 232, 232, 0.52);
+  }
+
+  .card-arrow {
+    display: inline-block;
+    margin-top: 1.25rem;
+    font-size: 0.8rem;
+    color: rgba(232, 232, 232, 0.3);
+    letter-spacing: 0.05em;
+    transition: color 0.2s ease, transform 0.2s ease;
+  }
+
+  .perspective-card:hover .card-arrow {
+    color: rgba(232, 232, 232, 0.7);
+    transform: translateX(4px);
+  }
+</style>
+
+<div class="landing-hero">
+  <p class="landing-eyebrow">CS-E5480 Digital Ethics &nbsp;·&nbsp; Group Presentation</p>
+  <h1 class="landing-title">Digital Piracy:<br><em>An Ethical Examination</em></h1>
+  <p class="landing-intro">
+    Piracy resists easy moral judgment. Depending on whose interests are foregrounded — the
+    consumer priced out of fragmented platforms, the creator whose livelihood depends on
+    compensation, or the buyer who discovers their "purchase" was only ever a licence — the same
+    act can appear as a rational response, an ethical violation, or a symptom of a broken system.
+    These three perspectives do not converge on a verdict; they map the terrain of a genuinely
+    contested problem.
+  </p>
+</div>
+
+<p class="perspectives-label">Three Perspectives</p>
+
+<div class="card-grid">
+  <a class="perspective-card" href="consumers.qmd">
+    <p class="card-number">I</p>
+    <p class="card-title">The Consumer's Perspective</p>
+    <p class="card-teaser">How fragmented streaming landscapes and rising subscription costs reframe piracy as a rational — if not justifiable — choice.</p>
+    <span class="card-arrow">Read &rarr;</span>
+  </a>
+  <a class="perspective-card" href="creators.qmd">
+    <p class="card-number">II</p>
+    <p class="card-title">The Creator's Perspective</p>
+    <p class="card-teaser">Economic and moral rights under the Berne Convention, and what three philosophical frameworks reveal about the ethics of unpaid use.</p>
+    <span class="card-arrow">Read &rarr;</span>
+  </a>
+  <a class="perspective-card" href="ownership.qmd">
+    <p class="card-number">III</p>
+    <p class="card-title">Ownership and Licensing</p>
+    <p class="card-teaser">When clicking "Buy" delivers a revocable licence instead of property, the ethical calculus of piracy shifts in ways the law has not caught up with.</p>
+    <span class="card-arrow">Read &rarr;</span>
+  </a>
+</div>
+```
