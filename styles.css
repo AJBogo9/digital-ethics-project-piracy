@@ -3,7 +3,6 @@
    CS-E5480 Digital Ethics · Digital Piracy Presentation
    ================================================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Pirata+One&family=Cinzel:wght@400;600;700;900&family=Cinzel+Decorative:wght@400;700&family=IM+Fell+English:ital@0;1&family=Uncial+Antiqua&display=swap');
 
 /* ── Color Palette ── */
 :root {
@@ -30,8 +29,8 @@
   --blood:          #6b1414;
 
   --text-primary:   #e8d5a0;
-  --text-secondary: rgba(232, 213, 160, 0.65);
-  --text-dim:       rgba(232, 213, 160, 0.35);
+  --text-secondary: rgba(232, 213, 160, 0.82);
+  --text-dim:       rgba(232, 213, 160, 0.58);
   --border-gold:    rgba(200, 148, 26, 0.22);
   --border-subtle:  rgba(200, 148, 26, 0.1);
 
@@ -42,7 +41,7 @@
   --bs-link-hover-color:  #f4c842;
   --bs-border-color:      rgba(200, 148, 26, 0.22);
   --bs-card-bg:           rgba(9, 15, 34, 0.9);
-  --bs-secondary-color:   rgba(232, 213, 160, 0.65);
+  --bs-secondary-color:   rgba(232, 213, 160, 0.82);
 }
 
 /* ── Reset ── */
@@ -371,9 +370,9 @@ main.content {
 
 /* ── TOC ── */
 nav[role="doc-toc"] a, .toc a, #TOC a {
-  color: var(--text-secondary) !important;
+  color: var(--parchment-dark) !important;
   font-family: 'Cinzel', serif !important;
-  font-size: 0.75rem !important;
+  font-size: 0.8rem !important;
   letter-spacing: 0.04em !important;
   transition: color 0.2s ease !important;
 }
@@ -526,20 +525,15 @@ main.content > *:nth-child(5) { animation-delay: 0.25s; }
 .ship-frame {
   margin: 0;
   position: relative;
-  animation: ship-drift 8s ease-in-out infinite;
-}
-
-@keyframes ship-drift {
-  0%, 100% { transform: translateY(0); }
-  50%       { transform: translateY(-8px); }
 }
 
 .ship-painting {
   display: block;
   width: 100%;
-  max-height: 500px;
-  object-fit: cover;
-  object-position: center 18%;
+  height: auto;
+  max-height: 72vh;
+  object-fit: contain;
+  object-position: center top;
   /* Aged engraving effect: warm ink tones on dark paper */
   filter: invert(1) sepia(0.45) brightness(0.62) contrast(1.15) hue-rotate(5deg);
   /* Ornate painted-frame effect */

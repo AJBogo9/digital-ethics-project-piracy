@@ -1,0 +1,51 @@
+<!-- DNS + TLS handshake for Google Fonts done before CSS requests them -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<!-- Load fonts as a <link> instead of CSS @import to avoid a blocking round-trip -->
+<link rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Pirata+One&family=Cinzel:wght@400;600;700;900&family=Cinzel+Decorative:wght@400;700&family=IM+Fell+English:ital@0;1&family=Uncial+Antiqua&display=swap">
+
+<!-- Preload the hero ship image on the landing page only -->
+<script>
+if (window.location.pathname === '/' || /index\.html$/.test(window.location.pathname)) {
+  var l = document.createElement('link');
+  l.rel = 'preload';
+  l.as = 'image';
+  l.href = 'images/galleon.jpg';
+  document.head.appendChild(l);
+}
+</script>
+
+<!-- Speculation Rules: prerender same-origin pages on hover (Chrome 109+) -->
+<script type="speculationrules">
+{
+  "prerender": [{
+    "where": { "and": [
+      { "href_matches": "/*" },
+      { "not": { "href_matches": "/index.html" } }
+    ]},
+    "eagerness": "moderate"
+  }]
+}
+</script>
+
+<!-- Prefetch on hover fallback for browsers without Speculation Rules support -->
+<script>
+(function () {
+  if (HTMLScriptElement.supports && HTMLScriptElement.supports('speculationrules')) return;
+  var prefetched = new Set();
+  document.addEventListener('mouseover', function (e) {
+    var a = e.target.closest('a[href]');
+    if (!a) return;
+    var href = a.href;
+    if (!href || a.origin !== location.origin) return;
+    if (prefetched.has(href)) return;
+    prefetched.add(href);
+    var l = document.createElement('link');
+    l.rel = 'prefetch';
+    l.href = href;
+    document.head.appendChild(l);
+  });
+})();
+</script>
