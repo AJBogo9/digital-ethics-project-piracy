@@ -9,7 +9,6 @@ bibliography: references.bib
 - Piracy is often framed as a consumer issue, but creators sit at the ethical core of the debate
 - Creators invest time, money, and creative labor into their work -- piracy directly affects the return on that investment
 - The ethical question: does the public's interest in access outweigh the creator's right to control and profit from their work?
-- Two distinct categories of rights apply: **economic rights** (the right to profit from your work) and **moral rights** (the right to control how your work is used and attributed), both recognised under the Berne Convention [@wipo1886]
 
 ## Economic Rights vs. Moral Rights
 
@@ -21,27 +20,23 @@ bibliography: references.bib
 
 ## Ethical Frameworks
 
-Three established philosophical frameworks illuminate why this debate is genuinely contested rather than easily resolved:
+Three philosophical frameworks frame the debate:
 
-- **Locke's labour theory of property** provides the philosophical foundation of copyright itself: when a person mixes their labour with raw material, the result becomes their property [@locke1689]. A game developer who spends years writing code and designing systems has mixed their labour with ideas; the resulting work is rightfully theirs. Piracy takes that product without consent -- a violation of a natural property right, not merely a legal one.
-- **Kantian deontology** offers two independent reasons why piracy is ethically problematic regardless of consequences [@ubc_filesharing]:
-  - *Universalisability*: if everyone pirated, creators would lose the income to keep creating -- the very content being pirated would cease to exist. Piracy cannot be universalised without undermining itself.
-  - *Treating persons as ends*: using a creator's work purely for one's own benefit, without consent or compensation, treats the creator as a means rather than as an agent whose rights deserve respect.
-- **Utilitarianism** is where the debate becomes most contested. The standard justification for copyright is that limited monopoly rights incentivise creation, maximising long-run social welfare [@ubc_filesharing]. But Waldfogel's post-Napster analysis directly complicates this: music supply did not decline even as revenue fell sharply after file-sharing became widespread [@waldfogel2012]. If creative output is resilient to piracy, the utilitarian case for strict enforcement weakens -- and freer access might produce greater total welfare by reaching more people.
-- These frameworks pull in different directions: Lockean natural rights and Kantian duty point toward strong creator protection, while utilitarian outcomes challenge whether that protection is actually necessary to sustain creative production. The sections below trace how each plays out in practice.
+- **Locke's labour theory**: creators who invest labour in their work have a natural property right to it -- piracy takes that product without consent, a violation of natural property right, not merely a legal one [@locke1689].
+- **Kantian deontology**: piracy fails the universalisability test (if everyone pirated, creation would collapse) and treats creators as means rather than as agents whose rights deserve respect [@ubc_filesharing].
+- **Utilitarianism**: copyright is justified as an incentive for creation, maximising long-run welfare -- but Waldfogel found music supply did not decline even as revenue fell sharply after file-sharing became widespread, complicating the case for strict enforcement [@waldfogel2012; @ubc_filesharing].
 
 ## The Case Against Piracy: Harm to Creators
 
 - **Metallica v. Napster (2000)**: the landmark creator-vs-piracy case. After discovering an unreleased demo circulating on Napster, Metallica identified 335,435 individual users sharing their catalogue and demanded they all be banned. Drummer Lars Ulrich testified before the US Senate, arguing that Napster "never asked us or other artists if we wanted to participate in their business" [@metallica_napster_wiki]. This is a Kantian argument at its core: Napster used artists' work as a means without seeking their consent, regardless of whether revenue was actually lost. The case forced Napster into shutdown and shaped digital copyright law for a decade.
 - **Lost income**: pirated copies represent potential sales that never materialise; most evidence suggests file sharing does displace media sales [@waldfogel2012] -- the Lockean case made concrete: the creator's labour produces something of value, and piracy takes it without consent or compensation
 - **Indie creators are disproportionately hurt**: major studios can absorb losses, but small teams rely on every purchase to fund continued development and future projects [@guardingpear]
-  - tinyBuild found that their game *Punch Club* saw a surge in Brazilian piracy only after they launched a Portuguese localisation -- users had waited for a translated version rather than paying for the English original [@tinybuild_mcv]
 - **Reduced incentive to innovate**: with limited revenue, studios gravitate toward proven formulas rather than experimental work -- empirical research on film confirms that piracy "reduces creative incentives" and negatively impacts the quality of new productions [@cmu_piracy]
 
 ## The Case For Piracy: Access and Distribution
 
 - **Censorship and geo-restrictions**: when content is banned or refused classification, piracy becomes the only option for consumers
-  - Australia's Classification Board can issue a "Refused Classification" (RC) verdict, banning a game from retail and eliminating all legal distribution channels [@strickland2019]; roughly one in four Australians reported pirating online content in 2022 [@sbs2023]
+  - Australia's Classification Board can issue a "Refused Classification" (RC) verdict, banning a game from retail and eliminating all legal distribution channels [@strickland2019]
   - *Hotline Miami 2* (2015) was refused classification in Australia; developer Jonatan Söderström publicly told Australian fans to "just pirate it" -- a case where the creator acknowledged the legal system left consumers no legitimate alternative [@hotlinemiami_engadget]
 - **DRM punishes legal buyers more than pirates**: CD Projekt Red removed all DRM from their games, arguing copy protection "makes the life of a legal customer more difficult" while pirates bypass it on day one anyway [@lomas2016] -- a utilitarian calculation: the harm imposed on legitimate buyers outweighs any protection gained
   - The Witcher 3 sold nearly 10 million copies across platforms despite being released without copy protection [@purchese2016]
@@ -51,10 +46,7 @@ Three established philosophical frameworks illuminate why this debate is genuine
 ## Ethical Tensions and Nuances
 
 - **Does creator size change the moral calculus?** Pirating from a billion-dollar studio is structurally different from pirating from a two-person indie team, even if the act is the same [@guardingpear] -- this intuition sits uneasily with Kantian ethics, where the wrongness of an act is independent of the target's wealth or market position
-- **When creators endorse piracy**: the Hotline Miami 2 case shows the creator/pirate relationship is not always adversarial -- sometimes creators view piracy as preferable to censorship [@strickland2019]
 - **The post-Napster paradox**: the recorded music industry saw dramatic revenue decline after Napster, yet the quantity of critically recognised new music did not decline -- raising questions about what "harm to creators" actually means in practice [@waldfogel2012]
-- **When enforcement itself causes harm**: Nintendo represents the opposite extreme from CD Projekt Red -- aggressively removing fan games, issuing around 20,000 GitHub takedown requests per year, and claiming millions of YouTube videos through Content ID [@nintendo_nintendolife]. The justification is a moral rights argument: creators must control how their work is used to protect integrity and reputation. But critics argue this chills the fan creativity that sustains Nintendo's cultural reach. Moral rights, taken to their logical conclusion, can become a tool that harms the broader creative ecosystem they were designed to protect.
-- **Moral rights and piracy**: distributing modified or cracked versions without attribution infringes moral rights even when it causes no direct economic harm [@moralrights_wiki]
 
 ## Conclusion
 
