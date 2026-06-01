@@ -16,17 +16,31 @@ To understand how governments came to adopt their current positions on digital p
 - **2019-2021: Copyright Modernization Laws** Around this period, many countries updated their frameworks for the platform era. The EU's Digital Single Market Directive (2019/790) was the most consequential, introducing platform upload filters and new press publishers' rights against tech aggregators. The U.S. passed the Copyright Alternative in Small-Claims Enforcement (CASE) Act in 2020.  
 
 ```{mermaid}
-flowchart TD
-    A["**1886**: Berne Convention<br/>First international copyright treaty"] -->
-    B["**1994**: WTO TRIPS Agreement<br/>Global enforcement standards"] -->
-    C["**1996**: WIPO Copyright Treaty<br/>Extends copyright into digital environment"] -->
-    D["**1998**: U.S. DMCA<br/>Digital Millennium Copyright Act"] -->
-    E["**2001**: EU Copyright Directive<br/>EU Information Society Directive"] -->
-    F["**2012**: SOPA/PIPA Debates<br/>U.S. anti-piracy bills, not enacted"] -->
-    G["**2016**: Marrakesh Treaty<br/>Copyright exceptions for disability"] -->
-    H["**2020**: Copyright Modernization Laws<br/>Many countries update digital rules"]
-```
+---
+config:
+  theme: base
+  themeVariables:
+    primaryTextColor: 'rgb(97, 32, 32)'
+---
+timeline
+    title "Evolution of Copyright Enforcement Policy"
+    1886 : Berne Convention (first international copyright treaty)
+    1994 : WTO TRIPS Agreement (global enforcement standards)
+    1996 : WIPO Copyright Treaty (specifically address digital rights)
+    1998 : U.S. DMCA (Digital Millennium Copyright Act)
+    2001 : EU Copyright Directive (EU Information Society Directive)
+    2012 : SOPA/PIPA Debates (U.S. anti-piracy bills, not enacted)
+    2016 : Marrakesh Treaty (copyright exceptions for disability)
+    2020 : Copyright Modernization Laws (many countries update digital rules)
+```  
 This legislative history shows that copyright law did not spontaneously emerge. Each milestone was a direct response to new technologies and shifting power dynamics. The laws governments enforce today are the cumulative product of decades of contested negotiation between creators, industries, and the public. 
+
+
+## The Government’s Position  
+Unlike creators or consumers, governments hold two roles simultaneously, and they pull in opposite directions:  
+- **As enforcer:** Governments are obligated under domestic law and international treaty to protect intellectual property rights. For example, under TRIPS, wilful copyright piracy on a commercial scale must be subject to criminal offences, and states must give customs authorities the power to seize pirated goods at the border [@WTO_agreements]. Non-compliance can trigger WTO dispute mechanisms and trade sanctions.  
+- **As public trustee:** Governments also exist to promote the general welfare of their citizens. Copyright law itself encodes this dual role; it grants creators a limited monopoly, and includes exceptions for education, research, and fair use because unrestricted IP enforcement can conflict with the public interest.  
+This distinction matters because the two roles can produce directly contradictory obligations: a government enforcing TRIPS strictly may simultaneously be denying its own citizens access to textbooks, scientific research, and cultural goods they cannot afford.  
 
 ## Ethical Frameworks  
 - **Social Contract Theory**: Moral obligations arise from agreements, explicit or implicit, between citizens and their institutions[@philosophy_wikipedia]. The key question is what rules people would freely and fairly agree to.  
@@ -46,14 +60,14 @@ A utilitarian analysis of piracy must consider both the harms and benefits it ge
 On the harm side:  
 - **Economic losses:** Global online piracy costs the U.S. economy at least $29.2 billion in lost revenue annually, with 200,000-500,000 jobs lost and $47.5-115.3 billion in GDP impact [@piracy_impact].  
 - **Tax shortfalls:** Pirated goods bypass income, sales, and VAT contributions, directly eroding public budgets.  
-- **Cybersecurity harm:** Piracy sites are a primary vector for malware, ransomware, and spyware. Users with piracy apps are three times more likely to suffer infections, with significant impact in sensitive sectors such as healthcare and finance [@DCA_cybersecurity2021]. See [The Consumer's Perspective](consumers.qmd) for a detailed account of the security risks involved.  
+- **Cybersecurity harm:** Users with piracy apps are three times more likely to suffer malware infections; 50% of those in sensitive professional roles (government, healthcare, finance) who use piracy devices reported malware incidents [@DCA_cybersecurity2021].  
 - **Innovation disincentive:** If piracy reduces creator earnings, it risks discouraging future production, which is a harm that ultimately falls on the public [@piracy_legal].  
-However, consequentialism does not yield a straightforward verdict. Piracy also generates welfare: students in low-income countries access textbooks they could never afford; individuals reach cultural works priced beyond their means. Pistorius and Mwim [@impact_piracy_learning] warn that aggressive technological protections "may hinder data literacy, access to works, teaching and learning, particularly in developing communities." The economic drivers behind this — subscription fragmentation, purchasing power gaps, and regional pricing failures — are examined in detail in [The Consumer's Perspective](consumers.qmd). Therefore, based on the utilitarian framework, harms exist on both sides, and the optimal policy must weigh them carefully.  
+However, consequentialism does not yield a straightforward verdict. Piracy also generates welfare: students in low-income countries access textbooks they could never afford; individuals reach cultural works priced beyond their means. Pistorius and Mwim [@impact_piracy_learning] warn that aggressive technological protections "may hinder data literacy, access to works, teaching and learning, particularly in developing communities." Therefore, based on the utilitarian framework, harms exist on both sides, and the optimal policy must weigh them carefully.  
 
 ## Policy Implications  
 Across all four frameworks, the analysis converges on a balanced framework rather than full prohibition:  
 - **Proportionate enforcement:** Focus criminal penalties on commercial-scale piracy; avoid prosecuting individuals driven by inaccessibility.  
-- **Demand-side reform:** Expand affordable legal alternatives; evidence suggests access reduces piracy more effectively than enforcement alone [@piracy_legal]. The commercial case for this — illustrated by Steam's success in Russia — is explored in [The Consumer's Perspective](consumers.qmd).  
+- **Demand-side reform:** Expand affordable legal alternatives; evidence suggests access reduces piracy more effectively than enforcement alone [@piracy_legal].  
 - **International equity reform:** Push for stronger educational fair-use exceptions and development-friendly treaty terms within WIPO and WTO.  
 - **Copyright reform:** Ensure copyright terms and exceptions genuinely serve the public interest, not just incumbent industries.  
 
