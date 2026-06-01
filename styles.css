@@ -796,34 +796,45 @@ main.content > *:nth-child(5) { animation-delay: 0.25s; }
 }
 
 /* ── Sidebar & TOC Scrollbar Fix ── */
-/* Hide the ugly scrollbar on sidebar */
-.quarto-sidebar {
-  scrollbar-width: none;
-  -ms-overflow-style: none;
+/* Hide the ugly scrollbar on sidebar - multiple selectors for Quarto compatibility */
+.quarto-sidebar,
+.quarto-sidebar-content,
+.quarto-sidebar-container,
+nav[role="doc-toc"],
+#TOC {
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+  overflow-y: visible !important;
+  overflow: visible !important;
 }
 
-.quarto-sidebar::-webkit-scrollbar {
-  display: none;
-  width: 0;
-  height: 0;
+.quarto-sidebar::-webkit-scrollbar,
+.quarto-sidebar-content::-webkit-scrollbar,
+.quarto-sidebar-container::-webkit-scrollbar,
+nav[role="doc-toc"]::-webkit-scrollbar,
+#TOC::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
 }
 
 /* Make TOC nav sticky for smooth page scroll */
-nav[role="doc-toc"] {
-  position: sticky;
-  top: 0;
-  height: auto;
-  overflow: visible;
-}
-
-/* Alternative for older Quarto versions using #TOC */
+nav[role="doc-toc"],
 #TOC {
-  scrollbar-width: none;
-  -ms-overflow-style: none;
+  position: sticky !important;
+  top: 0 !important;
+  height: auto !important;
+  max-height: none !important;
 }
 
-#TOC::-webkit-scrollbar {
-  display: none;
-  width: 0;
-  height: 0;
+/* Hide subsections in TOC - show only main numbered sections (1-6) */
+nav[role="doc-toc"] ul ul,
+#TOC ul ul {
+  display: none !important;
+}
+
+/* Ensure main list items are visible */
+nav[role="doc-toc"] > ul > li,
+#TOC > ul > li {
+  display: block !important;
 }
