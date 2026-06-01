@@ -101,6 +101,16 @@ if (window.location.pathname === '/' || /index\.html$/.test(window.location.path
 }
 </script>
 
+<!-- Remove animation fill-mode after fade-in completes to prevent stacking contexts
+     that trap tippy citation tooltips behind sibling sections -->
+<script>
+document.addEventListener('animationend', function (e) {
+  if (e.animationName === 'fade-in-up') {
+    e.target.style.animation = 'none';
+  }
+}, true);
+</script>
+
 <!-- Prefetch on hover fallback for browsers without Speculation Rules support -->
 <script>
 (function () {

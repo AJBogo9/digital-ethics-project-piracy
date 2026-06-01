@@ -6,7 +6,6 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Andreas">
 
 <title>The Creator’s Perspective – Piracy</title>
 <style>
@@ -121,6 +120,16 @@ if (window.location.pathname === '/' || /index\.html$/.test(window.location.path
 }
 </script>
 
+<!-- Remove animation fill-mode after fade-in completes to prevent stacking contexts
+     that trap tippy citation tooltips behind sibling sections -->
+<script>
+document.addEventListener('animationend', function (e) {
+  if (e.animationName === 'fade-in-up') {
+    e.target.style.animation = 'none';
+  }
+}, true);
+</script>
+
 <!-- Prefetch on hover fallback for browsers without Speculation Rules support -->
 <script>
 (function () {
@@ -191,12 +200,9 @@ if (window.location.pathname === '/' || /index\.html$/.test(window.location.path
    
   <ul>
   <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
-  <li><a href="#economic-rights-vs.-moral-rights" id="toc-economic-rights-vs.-moral-rights" class="nav-link" data-scroll-target="#economic-rights-vs.-moral-rights">Economic Rights vs.&nbsp;Moral Rights</a></li>
   <li><a href="#ethical-frameworks" id="toc-ethical-frameworks" class="nav-link" data-scroll-target="#ethical-frameworks">Ethical Frameworks</a></li>
   <li><a href="#the-case-against-piracy-harm-to-creators" id="toc-the-case-against-piracy-harm-to-creators" class="nav-link" data-scroll-target="#the-case-against-piracy-harm-to-creators">The Case Against Piracy: Harm to Creators</a></li>
   <li><a href="#the-case-for-piracy-access-and-distribution" id="toc-the-case-for-piracy-access-and-distribution" class="nav-link" data-scroll-target="#the-case-for-piracy-access-and-distribution">The Case For Piracy: Access and Distribution</a></li>
-  <li><a href="#ethical-tensions-and-nuances" id="toc-ethical-tensions-and-nuances" class="nav-link" data-scroll-target="#ethical-tensions-and-nuances">Ethical Tensions and Nuances</a></li>
-  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
 </nav>
@@ -213,12 +219,6 @@ if (window.location.pathname === '/' || /index\.html$/.test(window.location.path
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Andreas </p>
-          </div>
-  </div>
     
   
     
@@ -231,80 +231,36 @@ if (window.location.pathname === '/' || /index\.html$/.test(window.location.path
 
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<ul>
-<li>Piracy is often framed as a consumer issue, but creators sit at the ethical core of the debate</li>
-<li>Creators invest time, money, and creative labor into their work – piracy directly affects the return on that investment</li>
-<li>The ethical question: does the public’s interest in access outweigh the creator’s right to control and profit from their work?</li>
-<li>Two distinct categories of rights apply: <strong>economic rights</strong> (the right to profit from your work) and <strong>moral rights</strong> (the right to control how your work is used and attributed), both recognised under the Berne Convention <span class="citation" data-cites="wipo1886">(<a href="#ref-wipo1886" role="doc-biblioref">World Intellectual Property Organization 1886</a>)</span></li>
-</ul>
-</section>
-<section id="economic-rights-vs.-moral-rights" class="level2">
-<h2 class="anchored" data-anchor-id="economic-rights-vs.-moral-rights">Economic Rights vs.&nbsp;Moral Rights</h2>
-<ul>
-<li>Copyright grants creators two types of rights under the Berne Convention (Article 6bis) <span class="citation" data-cites="wipo1886">(<a href="#ref-wipo1886" role="doc-biblioref">World Intellectual Property Organization 1886</a>)</span>:
-<ul>
-<li><strong>Economic rights</strong>: the right to be compensated for use of one’s work; these can be transferred or licensed</li>
-<li><strong>Moral rights</strong>: the right to claim authorship and object to modifications that harm reputation; these <em>cannot</em> be transferred or waived</li>
-</ul></li>
-<li>Piracy primarily undermines economic rights, but can also affect moral rights (e.g., modified or cracked versions of a work distributed without the creator’s consent) <span class="citation" data-cites="moralrights_wiki">(<a href="#ref-moralrights_wiki" role="doc-biblioref">Wikipedia contributors 2024b</a>)</span></li>
-<li>The US copyright tradition is rooted almost entirely in economic rights, while the European/French tradition (“droits d’auteur”) places greater weight on moral rights – this shapes how different legal systems treat piracy <span class="citation" data-cites="moralrights_wiki">(<a href="#ref-moralrights_wiki" role="doc-biblioref">Wikipedia contributors 2024b</a>)</span></li>
-</ul>
+<p>Piracy is often talked about from the perspective of consumers, but creators sit at the ethical core of the discussion. Creators invest time, money and creative labor into their work and piracy directly affects the return on that investment. The ethical question from the creators’ perspective is: does the public’s interest in access outweigh the creator’s right to control and profit from their work? There are two main rights of the creators that piracy is challenging: <strong>economic rights</strong> (compensation for use, transferable) and <strong>moral rights</strong> (authorship and integrity, permanent). Both of these rights are recognized under the Berne Convention <span class="citation" data-cites="wipo1886">(<a href="#ref-wipo1886" role="doc-biblioref">World Intellectual Property Organization 1886</a>)</span>.</p>
 </section>
 <section id="ethical-frameworks" class="level2">
 <h2 class="anchored" data-anchor-id="ethical-frameworks">Ethical Frameworks</h2>
-<p>Three established philosophical frameworks illuminate why this debate is genuinely contested rather than easily resolved:</p>
+<p>There are three important philosophical frameworks when looking at piracy from the perspective of the creator:</p>
 <ul>
-<li><strong>Locke’s labour theory of property</strong> provides the philosophical foundation of copyright itself: when a person mixes their labour with raw material, the result becomes their property <span class="citation" data-cites="locke1689">(<a href="#ref-locke1689" role="doc-biblioref">Locke 1689</a>)</span>. A game developer who spends years writing code and designing systems has mixed their labour with ideas; the resulting work is rightfully theirs. Piracy takes that product without consent – a violation of a natural property right, not merely a legal one.</li>
-<li><strong>Kantian deontology</strong> offers two independent reasons why piracy is ethically problematic regardless of consequences <span class="citation" data-cites="ubc_filesharing">(<a href="#ref-ubc_filesharing" role="doc-biblioref">UBC Allard School of Law – Social Media Law 2024</a>)</span>:
-<ul>
-<li><em>Universalisability</em>: if everyone pirated, creators would lose the income to keep creating – the very content being pirated would cease to exist. Piracy cannot be universalised without undermining itself.</li>
-<li><em>Treating persons as ends</em>: using a creator’s work purely for one’s own benefit, without consent or compensation, treats the creator as a means rather than as an agent whose rights deserve respect.</li>
-</ul></li>
-<li><strong>Utilitarianism</strong> is where the debate becomes most contested. The standard justification for copyright is that limited monopoly rights incentivise creation, maximising long-run social welfare <span class="citation" data-cites="ubc_filesharing">(<a href="#ref-ubc_filesharing" role="doc-biblioref">UBC Allard School of Law – Social Media Law 2024</a>)</span>. But Waldfogel’s post-Napster analysis directly complicates this: music supply did not decline even as revenue fell sharply after file-sharing became widespread <span class="citation" data-cites="waldfogel2012">(<a href="#ref-waldfogel2012" role="doc-biblioref">Waldfogel 2012</a>)</span>. If creative output is resilient to piracy, the utilitarian case for strict enforcement weakens – and freer access might produce greater total welfare by reaching more people.</li>
-<li>These frameworks pull in different directions: Lockean natural rights and Kantian duty point toward strong creator protection, while utilitarian outcomes challenge whether that protection is actually necessary to sustain creative production. The sections below trace how each plays out in practice.</li>
+<li><strong>Locke’s labour theory</strong>: creators who invest labour in their work have a natural property right to it. Piracy takes that product without consent, which is a violation of their property right <span class="citation" data-cites="locke1689">(<a href="#ref-locke1689" role="doc-biblioref">Locke 1689</a>)</span>.</li>
+<li><strong>Kantian deontology</strong>: piracy fails the universalisability test (if everyone pirated, creation would collapse) and treats creators as means rather than as agents whose rights deserve respect <span class="citation" data-cites="ubc_filesharing">(<a href="#ref-ubc_filesharing" role="doc-biblioref">UBC Allard School of Law – Social Media Law 2024</a>)</span>.</li>
+<li><strong>Utilitarianism</strong>: copyright gives creators a limited monopoly to recoup their investment, which in theory funds future creation and maximises long-term benefit of both creators and consumers <span class="citation" data-cites="ubc_filesharing">(<a href="#ref-ubc_filesharing" role="doc-biblioref">UBC Allard School of Law – Social Media Law 2024</a>)</span>.</li>
 </ul>
 </section>
 <section id="the-case-against-piracy-harm-to-creators" class="level2">
 <h2 class="anchored" data-anchor-id="the-case-against-piracy-harm-to-creators">The Case Against Piracy: Harm to Creators</h2>
-<ul>
-<li><strong>Metallica v. Napster (2000)</strong>: the landmark creator-vs-piracy case. After discovering an unreleased demo circulating on Napster, Metallica identified 335,435 individual users sharing their catalogue and demanded they all be banned. Drummer Lars Ulrich testified before the US Senate, arguing that Napster “never asked us or other artists if we wanted to participate in their business” <span class="citation" data-cites="metallica_napster_wiki">(<a href="#ref-metallica_napster_wiki" role="doc-biblioref">Wikipedia contributors 2024a</a>)</span>. This is a Kantian argument at its core: Napster used artists’ work as a means without seeking their consent, regardless of whether revenue was actually lost. The case forced Napster into shutdown and shaped digital copyright law for a decade.</li>
-<li><strong>Lost income</strong>: pirated copies represent potential sales that never materialise; most evidence suggests file sharing does displace media sales <span class="citation" data-cites="waldfogel2012">(<a href="#ref-waldfogel2012" role="doc-biblioref">Waldfogel 2012</a>)</span> – the Lockean case made concrete: the creator’s labour produces something of value, and piracy takes it without consent or compensation</li>
-<li><strong>Indie creators are disproportionately hurt</strong>: major studios can absorb losses, but small teams rely on every purchase to fund continued development and future projects <span class="citation" data-cites="guardingpear">(<a href="#ref-guardingpear" role="doc-biblioref">GuardingPearSoftware, n.d.</a>)</span>
-<ul>
-<li>tinyBuild found that their game <em>Punch Club</em> saw a surge in Brazilian piracy only after they launched a Portuguese localisation – users had waited for a translated version rather than paying for the English original <span class="citation" data-cites="tinybuild_mcv">(<a href="#ref-tinybuild_mcv" role="doc-biblioref">MCV/DEVELOP, n.d.</a>)</span></li>
-</ul></li>
-<li><strong>Reduced incentive to innovate</strong>: with limited revenue, studios gravitate toward proven formulas rather than experimental work – empirical research on film confirms that piracy “reduces creative incentives” and negatively impacts the quality of new productions <span class="citation" data-cites="cmu_piracy">(<a href="#ref-cmu_piracy" role="doc-biblioref">Initiative for Digital Entertainment Analytics, Carnegie Mellon University, n.d.</a>)</span></li>
-</ul>
+<p>One of the most famous creator-vs-piracy cases was Metallica v. Napster in 2000. Napster was a popular file sharing platform at the time and Metallica identified 335,435 users sharing their catalogue without consent and sued Napster into shutdown. This case is Kantian at its core: Napster used artists’ work as a means for profit without their consent. It is also Lockean in consequence: the product of creators’ labour was taken without compensation, a direct violation of their property right.</p>
+<blockquote class="blockquote">
+<p>“[Napster] never asked us or other artists if we wanted to participate in their business”</p>
+<p>— Lars Ulrich, US Senate testimony, 2000</p>
+</blockquote>
+<p>The harm to creators extends beyond landmark legal cases. Waldfogel found that the number of new music releases did not decline even as revenue fell sharply after file-sharing became widespread <span class="citation" data-cites="waldfogel2012">(<a href="#ref-waldfogel2012" role="doc-biblioref">Waldfogel 2012</a>)</span>. The reasoning behind this was that creators had already shifted to live performance, merchandise and licensing. These are sources of income that piracy does not directly affect. Spotify pays $0.003–$0.005 per stream ($3,000–$5,000 per million streams <span class="citation" data-cites="dittomusic2024">(<a href="#ref-dittomusic2024" role="doc-biblioref">Ditto Music 2024</a>)</span>), while a single band tee at $35 is worth the equivalent of approximately 9,000 streams <span class="citation" data-cites="atvenu2023">(<a href="#ref-atvenu2023" role="doc-biblioref"><span class="nocase">atVenu</span> 2023</a>)</span>. This directly challenges the utilitarian case for strict enforcement. The financial harm to sales is real, but the harm to creation itself is less obvious.</p>
+<p>Another interesting question is whether the creator size and popularity affect the ethics of pirating. Pirating from a billion-dollar studio is structurally different from pirating from a two-person indie team. This viewpoint goes against Kantian ethics, where the wrongness of an act is independent of the target’s wealth.</p>
 </section>
 <section id="the-case-for-piracy-access-and-distribution" class="level2">
 <h2 class="anchored" data-anchor-id="the-case-for-piracy-access-and-distribution">The Case For Piracy: Access and Distribution</h2>
-<ul>
-<li><strong>Censorship and geo-restrictions</strong>: when content is banned or refused classification, piracy becomes the only option for consumers
-<ul>
-<li>Australia’s Classification Board can issue a “Refused Classification” (RC) verdict, banning a game from retail and eliminating all legal distribution channels <span class="citation" data-cites="strickland2019">(<a href="#ref-strickland2019" role="doc-biblioref">Strickland 2019</a>)</span>; roughly one in four Australians reported pirating online content in 2022 <span class="citation" data-cites="sbs2023">(<a href="#ref-sbs2023" role="doc-biblioref">SBS News 2023</a>)</span></li>
-<li><em>Hotline Miami 2</em> (2015) was refused classification in Australia; developer Jonatan Söderström publicly told Australian fans to “just pirate it” – a case where the creator acknowledged the legal system left consumers no legitimate alternative <span class="citation" data-cites="hotlinemiami_engadget">(<a href="#ref-hotlinemiami_engadget" role="doc-biblioref">Engadget 2015</a>)</span></li>
-</ul></li>
-<li><strong>DRM punishes legal buyers more than pirates</strong>: CD Projekt Red removed all DRM from their games, arguing copy protection “makes the life of a legal customer more difficult” while pirates bypass it on day one anyway <span class="citation" data-cites="lomas2016">(<a href="#ref-lomas2016" role="doc-biblioref">Lomas 2016</a>)</span> – a utilitarian calculation: the harm imposed on legitimate buyers outweighs any protection gained
-<ul>
-<li>The Witcher 3 sold nearly 10 million copies across platforms despite being released without copy protection <span class="citation" data-cites="purchese2016">(<a href="#ref-purchese2016" role="doc-biblioref">Purchese 2016</a>)</span></li>
-<li>Co-founder Marcin Iwiński: <em>“We believe in the carrot, not the stick. We cannot force people to buy things – we can only convince them to do it.”</em> <span class="citation" data-cites="lomas2016">(<a href="#ref-lomas2016" role="doc-biblioref">Lomas 2016</a>)</span></li>
-</ul></li>
-<li><strong>Piracy as a path to legitimate consumption</strong>: in lower-income regions, young people who pirate games often become paying customers once they have disposable income <span class="citation" data-cites="purchese2016">(<a href="#ref-purchese2016" role="doc-biblioref">Purchese 2016</a>)</span></li>
-</ul>
-</section>
-<section id="ethical-tensions-and-nuances" class="level2">
-<h2 class="anchored" data-anchor-id="ethical-tensions-and-nuances">Ethical Tensions and Nuances</h2>
-<ul>
-<li><strong>Does creator size change the moral calculus?</strong> Pirating from a billion-dollar studio is structurally different from pirating from a two-person indie team, even if the act is the same <span class="citation" data-cites="guardingpear">(<a href="#ref-guardingpear" role="doc-biblioref">GuardingPearSoftware, n.d.</a>)</span> – this intuition sits uneasily with Kantian ethics, where the wrongness of an act is independent of the target’s wealth or market position</li>
-<li><strong>When creators endorse piracy</strong>: the Hotline Miami 2 case shows the creator/pirate relationship is not always adversarial – sometimes creators view piracy as preferable to censorship <span class="citation" data-cites="strickland2019">(<a href="#ref-strickland2019" role="doc-biblioref">Strickland 2019</a>)</span></li>
-<li><strong>The post-Napster paradox</strong>: the recorded music industry saw dramatic revenue decline after Napster, yet the quantity of critically recognised new music did not decline – raising questions about what “harm to creators” actually means in practice <span class="citation" data-cites="waldfogel2012">(<a href="#ref-waldfogel2012" role="doc-biblioref">Waldfogel 2012</a>)</span></li>
-<li><strong>When enforcement itself causes harm</strong>: Nintendo represents the opposite extreme from CD Projekt Red – aggressively removing fan games, issuing around 20,000 GitHub takedown requests per year, and claiming millions of YouTube videos through Content ID <span class="citation" data-cites="nintendo_nintendolife">(<a href="#ref-nintendo_nintendolife" role="doc-biblioref">Nintendo Life 2024</a>)</span>. The justification is a moral rights argument: creators must control how their work is used to protect integrity and reputation. But critics argue this chills the fan creativity that sustains Nintendo’s cultural reach. Moral rights, taken to their logical conclusion, can become a tool that harms the broader creative ecosystem they were designed to protect.</li>
-<li><strong>Moral rights and piracy</strong>: distributing modified or cracked versions without attribution infringes moral rights even when it causes no direct economic harm <span class="citation" data-cites="moralrights_wiki">(<a href="#ref-moralrights_wiki" role="doc-biblioref">Wikipedia contributors 2024b</a>)</span></li>
-</ul>
-</section>
-<section id="conclusion" class="level2">
-<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
-<p>The creator’s perspective on piracy resists a simple verdict. Lockean property rights and Kantian respect for consent both support strong creator protection, and the Metallica case and indie developer stories show that real harm occurs – particularly where economic survival is at stake. Yet the utilitarian evidence complicates the picture: creative supply proved resilient even after Napster, and cases like Hotline Miami 2 and CD Projekt Red show that creators themselves sometimes find piracy preferable to the alternatives on offer. The morally relevant factor may not be piracy per se, but context: who is pirating, from whom, under what conditions, and with what legitimate alternatives available. A framework that treats all piracy as equivalent – whether from a teenager in a low-income country or a bulk commercial operation – misses the ethical distinctions that actually matter.</p>
+<p>Even though piracy can cause monetary harm to creators, not all creators oppose it either. When content is banned or refused classification, piracy becomes the only option. For example, the game <em>Hotline Miami 2</em> (2015) was refused classification in Australia. After the news broke, the developer Jonatan Söderström publicly told Australian fans to “just pirate it” <span class="citation" data-cites="hotlinemiami_engadget">(<a href="#ref-hotlinemiami_engadget" role="doc-biblioref">Engadget 2015</a>)</span>.</p>
+<p>There are also many cases where digital rights management (DRM) punishes legal buyers more than pirates. CD Projekt Red removed all DRM from their games, arguing copy protection “makes the life of a legal consumer more difficult” while pirates bypass it on day one anyway <span class="citation" data-cites="lomas2016">(<a href="#ref-lomas2016" role="doc-biblioref">Lomas 2016</a>)</span>. This is a utilitarian calculation: rather than restricting access, they chose to offer a better experience to paying customers and win over pirates through quality. Their flagship game, <em>The Witcher 3</em>, sold nearly 10 million copies without copy protection <span class="citation" data-cites="purchese2016">(<a href="#ref-purchese2016" role="doc-biblioref">Purchese 2016</a>)</span>.</p>
+<blockquote class="blockquote">
+<p>“We believe in the carrot, not the stick. We cannot force people to buy things – we can only convince them to do it.”</p>
+<p>— Marcin Iwiński, co-founder of CD Projekt Red <span class="citation" data-cites="lomas2016">(<a href="#ref-lomas2016" role="doc-biblioref">Lomas 2016</a>)</span></p>
+</blockquote>
+<p>In both cases, the creators who embraced piracy – or at least refused to fight it – argued that a better product is a more effective response than restriction.</p>
 </section>
 <section id="references" class="level2">
 
@@ -314,14 +270,14 @@ if (window.location.pathname === '/' || /index\.html$/.test(window.location.path
 </section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-atvenu2023" class="csl-entry" role="listitem">
+<span class="nocase">atVenu</span>. 2023. <em>How Much Money Artists Make in Streaming Royalties Vs. Merchandise Sales</em>. <a href="https://www.atvenu.com/post/how-much-money-artists-make-in-streaming-vs-merchandise-sales">https://www.atvenu.com/post/how-much-money-artists-make-in-streaming-vs-merchandise-sales</a>.
+</div>
+<div id="ref-dittomusic2024" class="csl-entry" role="listitem">
+Ditto Music. 2024. <em>How Much Does Spotify Pay Per Stream?</em> <a href="https://dittomusic.com/en/blog/how-much-does-spotify-pay-per-stream">https://dittomusic.com/en/blog/how-much-does-spotify-pay-per-stream</a>.
+</div>
 <div id="ref-hotlinemiami_engadget" class="csl-entry" role="listitem">
 Engadget. 2015. <em><span>“Just Pirate It,”</span> <span>Hotline Miami 2</span> Dev Tells Australian Fan</em>. <a href="https://www.engadget.com/2015-01-16-just-pirate-it-hotline-miami-2-dev-tells-australian-fan.html">https://www.engadget.com/2015-01-16-just-pirate-it-hotline-miami-2-dev-tells-australian-fan.html</a>.
-</div>
-<div id="ref-guardingpear" class="csl-entry" role="listitem">
-GuardingPearSoftware. n.d. <em>How Piracy and Cheating Kill Revenue for Indie Games</em>. <a href="https://www.guardingpearsoftware.com/blog/how-piracy-and-cheating-kill-revenue-for-indie-games-88527">https://www.guardingpearsoftware.com/blog/how-piracy-and-cheating-kill-revenue-for-indie-games-88527</a>.
-</div>
-<div id="ref-cmu_piracy" class="csl-entry" role="listitem">
-Initiative for Digital Entertainment Analytics, Carnegie Mellon University. n.d. <em>The Impact of Piracy on Sales and Creativity</em>. <a href="https://www.cmu.edu/entertainment-analytics/impact-of-piracy-on-sales-and-creativity/index.html">https://www.cmu.edu/entertainment-analytics/impact-of-piracy-on-sales-and-creativity/index.html</a>.
 </div>
 <div id="ref-locke1689" class="csl-entry" role="listitem">
 Locke, John. 1689. <em>Two Treatises of Government</em>. <a href="https://www.gutenberg.org/ebooks/7370">https://www.gutenberg.org/ebooks/7370</a>.
@@ -329,32 +285,14 @@ Locke, John. 1689. <em>Two Treatises of Government</em>. <a href="https://www.gu
 <div id="ref-lomas2016" class="csl-entry" role="listitem">
 Lomas, Ed. 2016. <span>“<span>CD Projekt Red</span>: Don’t Punish Pirates, Win Them Over.”</span> <em>MCV/DEVELOP</em>. <a href="https://mcvuk.com/business-news/publishing/cd-projekt-red-dont-punish-pirates-win-them-over/">https://mcvuk.com/business-news/publishing/cd-projekt-red-dont-punish-pirates-win-them-over/</a>.
 </div>
-<div id="ref-tinybuild_mcv" class="csl-entry" role="listitem">
-MCV/DEVELOP. n.d. <em>How <span>TinyBuild</span> Plans to Take on the Pirates</em>. <a href="https://www.mcvuk.com/business-news/retail/how-tinybuild-plans-to-take-on-the-pirates/">https://www.mcvuk.com/business-news/retail/how-tinybuild-plans-to-take-on-the-pirates/</a>.
-</div>
-<div id="ref-nintendo_nintendolife" class="csl-entry" role="listitem">
-Nintendo Life. 2024. <em>Nintendo on Inappropriate Use of Its <span>IP</span> and Games: <span>“Action Must Be Taken”</span></em>. <a href="https://www.nintendolife.com/news/2024/07/nintendo-on-inappropriate-use-of-its-ip-and-games-action-must-be-taken">https://www.nintendolife.com/news/2024/07/nintendo-on-inappropriate-use-of-its-ip-and-games-action-must-be-taken</a>.
-</div>
 <div id="ref-purchese2016" class="csl-entry" role="listitem">
 Purchese, Robert. 2016. <span>“Some Real Talk on Piracy from a <span>Witcher</span> 3 Dev.”</span> <em>Kotaku</em>. <a href="https://kotaku.com/some-real-talk-on-piracy-from-a-witcher-3-dev-1783864910">https://kotaku.com/some-real-talk-on-piracy-from-a-witcher-3-dev-1783864910</a>.
-</div>
-<div id="ref-sbs2023" class="csl-entry" role="listitem">
-SBS News. 2023. <em><span>“Disturbingly High”</span>: One in Four Australians Engaging in Online Piracy</em>. <a href="https://www.sbs.com.au/news/article/disturbingly-high-one-in-four-australians-engaging-in-online-piracy/c2k2yhkq6">https://www.sbs.com.au/news/article/disturbingly-high-one-in-four-australians-engaging-in-online-piracy/c2k2yhkq6</a>.
-</div>
-<div id="ref-strickland2019" class="csl-entry" role="listitem">
-Strickland, Tom. 2019. <span>“Australia Bans Video Games for Things You’d See in Movies. But Gamers Can Access Them Anyway.”</span> <em>The Conversation</em>. <a href="https://theconversation.com/australia-bans-video-games-for-things-youd-see-in-movies-but-gamers-can-access-them-anyway-122183">https://theconversation.com/australia-bans-video-games-for-things-youd-see-in-movies-but-gamers-can-access-them-anyway-122183</a>.
 </div>
 <div id="ref-ubc_filesharing" class="csl-entry" role="listitem">
 UBC Allard School of Law – Social Media Law. 2024. <em>The Ethical Ambiguity of Online File Sharing</em>. <a href="https://socialmedialaw.allard.ubc.ca/2024/04/08/the-ethical-ambiguity-of-online-file-sharing/">https://socialmedialaw.allard.ubc.ca/2024/04/08/the-ethical-ambiguity-of-online-file-sharing/</a>.
 </div>
 <div id="ref-waldfogel2012" class="csl-entry" role="listitem">
 Waldfogel, Joel. 2012. <span>“Music Piracy and Its Effects on Demand, Supply, and Welfare.”</span> <em>Innovation Policy and the Economy</em> 12 (1): 91–109. <a href="https://www.journals.uchicago.edu/doi/full/10.1086/663157">https://www.journals.uchicago.edu/doi/full/10.1086/663157</a>.
-</div>
-<div id="ref-metallica_napster_wiki" class="csl-entry" role="listitem">
-Wikipedia contributors. 2024a. <em>Metallica v. Napster, Inc.</em> <a href="https://en.wikipedia.org/wiki/Metallica_v._Napster,_Inc.">https://en.wikipedia.org/wiki/Metallica_v._Napster,_Inc.</a>
-</div>
-<div id="ref-moralrights_wiki" class="csl-entry" role="listitem">
-Wikipedia contributors. 2024b. <em>Moral Rights</em>. <a href="https://en.wikipedia.org/wiki/Moral_rights">https://en.wikipedia.org/wiki/Moral_rights</a>.
 </div>
 <div id="ref-wipo1886" class="csl-entry" role="listitem">
 World Intellectual Property Organization. 1886. <em>Berne Convention for the Protection of Literary and Artistic Works</em>. <a href="https://www.wipo.int/wipolex/en/text/283698">https://www.wipo.int/wipolex/en/text/283698</a>.
