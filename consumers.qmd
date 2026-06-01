@@ -1,7 +1,6 @@
 ---
 title: "Consumer Training: Media Access"
 author: "Hai Dang"
-bibliography: references.bib
 toc-expand: true
 ---
 
@@ -114,3 +113,6 @@ For the ethical consumer, this funding structure creates a profound moral confli
 
 
 ## References
+
+::: {#refs}
+:::

@@ -1,7 +1,6 @@
 ---
 title: "The Creator's Perspective"
 author: "Andreas Bogossian"
-bibliography: references.bib
 ---
 
 ## Introduction
@@ -41,3 +40,6 @@ There are also many cases where digital rights management (DRM) punishes legal b
 In both cases, the creators who embraced piracy -- or at least refused to fight it -- argued that a better product is a more effective response than restriction.
 
 ## References
+
+::: {#refs}
+:::
