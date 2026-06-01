@@ -390,6 +390,7 @@ nav[role="doc-toc"] a:hover, .toc a:hover, #TOC a:hover {
 }
 
 #TOC { border-left: 2px solid var(--border-gold) !important; padding-left: 1rem; }
+#TOC .collapse { display: block !important; }
 
 /* ── Footer ── */
 .nav-footer, footer {
@@ -420,7 +421,7 @@ main.content > *:nth-child(5) { animation-delay: 0.25s; }
 
 @keyframes fade-in-up {
   from { opacity: 0; transform: translateY(14px); }
-  to   { opacity: 1; transform: translateY(0); }
+  to   { opacity: 1; }
 }
 
 /* ── Quarto callouts ── */
@@ -792,4 +793,48 @@ main.content > *:nth-child(5) { animation-delay: 0.25s; }
 .page-nav-next:hover .page-nav-arrow {
   color: var(--gold-fire);
   transform: translateX(4px);
+}
+
+/* ── Sidebar & TOC Scrollbar Fix ── */
+/* Hide the ugly scrollbar on sidebar - multiple selectors for Quarto compatibility */
+.quarto-sidebar,
+.quarto-sidebar-content,
+.quarto-sidebar-container,
+nav[role="doc-toc"],
+#TOC {
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+  overflow-y: visible !important;
+  overflow: visible !important;
+}
+
+.quarto-sidebar::-webkit-scrollbar,
+.quarto-sidebar-content::-webkit-scrollbar,
+.quarto-sidebar-container::-webkit-scrollbar,
+nav[role="doc-toc"]::-webkit-scrollbar,
+#TOC::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+
+/* Make TOC nav sticky for smooth page scroll */
+nav[role="doc-toc"],
+#TOC {
+  position: sticky !important;
+  top: 0 !important;
+  height: auto !important;
+  max-height: none !important;
+}
+
+/* Hide subsections in TOC - show only main numbered sections (1-6) */
+nav[role="doc-toc"] ul ul,
+#TOC ul ul {
+  display: none !important;
+}
+
+/* Ensure main list items are visible */
+nav[role="doc-toc"] > ul > li,
+#TOC > ul > li {
+  display: block !important;
 }
