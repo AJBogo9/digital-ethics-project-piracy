@@ -15,9 +15,9 @@ page-layout: full
     <p class="hero-subtitle">An Ethical Examination</p>
     <p class="hero-intro">
       Piracy resists easy moral judgment. Depending on whose interests are
-      foregrounded — the consumer priced out of fragmented platforms, the creator
+      foregrounded (the consumer priced out of fragmented platforms, the creator
       whose livelihood depends on compensation, or the buyer who discovers their
-      "purchase" was only ever a licence — the same act can appear as a rational
+      "purchase" was only ever a licence), the same act can appear as a rational
       response, an ethical violation, or a symptom of a broken system. These three
       perspectives do not converge on a verdict; they map the terrain of a genuinely
       contested problem.
@@ -28,7 +28,7 @@ page-layout: full
     <figure class="ship-frame">
       <img
         src="images/galleon.jpg"
-        alt="A Spanish Galleon — anonymous mid-17th century engraving"
+        alt="A Spanish Galleon, anonymous mid-17th century engraving"
         class="ship-painting"
         loading="lazy"
       />
@@ -48,7 +48,7 @@ page-layout: full
   <a class="map-card" href="consumers.qmd">
     <p class="card-roman">I</p>
     <p class="card-title">The Consumer's Perspective</p>
-    <p class="card-teaser">How fragmented streaming landscapes and rising subscription costs reframe piracy as a rational — if not justifiable — choice.</p>
+    <p class="card-teaser">How fragmented streaming landscapes and rising subscription costs reframe piracy as a rational, if not justifiable, choice.</p>
     <span class="card-sail">Set Sail &rarr;</span>
   </a>
   <a class="map-card" href="creators.qmd">
