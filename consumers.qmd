@@ -79,11 +79,13 @@ This erosion of trust has a cascading effect on legitimate buyers. When honest c
 
 ## 5 Scurvy, Scams, and Software Sea Monsters
 
-This lesson covers the risks of piracy, from malware to untrustworthy sites.
+This section covers the risks of piracy, from malware to untrustworthy sites.
 
 ### Unregulated Waters
 
-The unofficial channels of digital piracy are highly dangerous territories. Legitimate platforms are subject to strict regulatory oversight, consumer protection laws, and corporate accountability, but pirate sites operate entirely outside the law. They are digital badlands. In these unregulated waters, consumers have zero legal protections or safety guarantees. Every click is a gamble. 
+The unofficial channels of digital piracy are highly dangerous territories. Legitimate platforms are subject to strict regulatory oversight, consumer protection laws, and corporate accountability, but pirate sites operate entirely outside the law. 
+
+They are metaphorically digital badlands. In these unregulated waters, consumers have zero legal protections or safety guarantees. Every click is a gamble. 
 
 The hazards on these platforms are frequent and severe. Visitors are routinely bombarded with malicious pop-up advertisements, deceptive download buttons, and fraudulent redirects. Cyber-criminals use these sites as primary distribution channels for digital infections. They often camouflage dangerous software as popular movies, television episodes, or game cracks. Unsuspecting users who are simply searching for a free download can easily find themselves trapped in a web of digital scams and malicious scripts.
 
@@ -96,15 +98,17 @@ The software sea monsters lurking on these platforms can cause permanent damage.
 
 ## 6 The Ghost Crew's True Masters
 
-This lesson examines why pirate sites themselves need income and what that means for the ecosystem.
+This section examines why pirate sites themselves need income and what that means for the ecosystem.
 
 ### Who Pays the Pirate Toll?
 
-The popular image of the digital pirate is often that of a benevolent rebel or an idealistic digital Robin Hood. This is a myth. Operating a high-traffic file-sharing website or streaming portal is an expensive enterprise. These sites require massive server bandwidth, robust hosting infrastructure, and continuous technical maintenance to stay online. To cover these overhead costs and generate profit, pirate operators must establish reliable streams of income. They are commercial enterprises.
+The popular image of the digital pirate is often that of a benevolent rebel or an idealistic digital Robin Hood. This is a myth. Operating a high-traffic file-sharing website or streaming portal is an expensive enterprise. These sites require extensive server bandwidth, robust hosting infrastructure, and continuous technical maintenance to stay online. To cover these overhead costs and generate profit, pirate operators must establish reliable streams of income. They are commercial enterprises.
 
-To generate revenue, these platforms employ highly aggressive, unregulated monetization models. They partner with shady third-party ad networks that specialize in high-risk advertising. Visitors are forced to navigate intrusive pop-under ads, deceptive betting promotions, and high-stakes cryptocurrency scams. Many of these sites also utilize silent cryptocurrency mining scripts that hijack a visitor's computer processor to mine digital coins. The pirate toll is always paid. It is simply extracted from the user's device security and attention rather than their credit card.
+To generate revenue, these platforms employ highly aggressive, unregulated monetization models. They often partner with shady third-party ad networks that specialize in high-risk advertising. Visitors are forced to navigate intrusive pop-under ads, deceptive betting promotions, and high-stakes cryptocurrency scams. 
 
-### Side Effects of Pirate Funding
+Many of these sites also utilize silent cryptocurrency mining scripts that hijack a visitor's computer processor to mine digital coins. The pirate toll is therefore always paid in some manner. It is simply extracted from the user's device security and attention rather than their credit card.
+
+### Side Effects of Piracy
 
 The financial scale of the digital piracy ecosystem is staggering. Globally, ad-supported piracy websites and illicit streaming apps generate more than 2.5 billion dollars in annual revenue [@dca_piracy2021]. This massive influx of money creates a powerful financial incentive for operators to keep their illegal operations online. It is a highly lucrative business model. 
 
