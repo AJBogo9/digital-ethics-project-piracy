@@ -568,6 +568,8 @@ main.content > *:nth-child(5) { animation-delay: 0.25s; }
   text-align: center;
   margin-top: 0.6rem;
   letter-spacing: 0.02em;
+  position: relative;
+  z-index: 1;
 }
 
 /* ── Skull ornament divider ── */
