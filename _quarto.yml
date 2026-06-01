@@ -3,6 +3,7 @@ project:
 
 website:
   title: "Piracy"
+  favicon: images/favicon.png
   navbar:
     left:
       - href: consumers.qmd
