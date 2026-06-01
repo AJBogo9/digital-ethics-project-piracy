@@ -1,13 +1,28 @@
 # Digital Ethics: Piracy
 
-A course essay on digital piracy, published as a Quarto website on GitHub Pages.
+A group essay on digital piracy for CS-E5480 Digital Ethics, published as a Quarto website on GitHub Pages.
 
 ## Project Structure
 
 ```
 .
-├── _quarto.yml       # Quarto project configuration
-└── index.qmd         # Main essay / landing page
+├── _quarto.yml           # Quarto project configuration
+├── references.bib        # Shared bibliography (APA)
+├── apa.csl               # APA citation style
+├── styles.css            # Custom site styles
+├── index.qmd             # Landing page
+├── creators.qmd          # Creator perspective (Andreas Bogossian)
+├── consumers.qmd         # Consumer perspective (Dang)
+├── ownership.qmd         # Digital ownership perspective (Oskari)
+├── _page-nav.html        # Previous/next page navigation partial
+├── _perf-hints.html      # Performance hint tags partial
+├── wordcount.sh          # Word count helper script
+├── images/               # Image assets
+└── docs/                 # Internal project documents (not part of the site)
+    ├── project-plan.md
+    ├── project-requirements.pdf
+    ├── contributions.qmd # Contribution statement
+    └── ai-usage.qmd      # AI usage declaration
 ```
 
 ## Prerequisites
