@@ -1,6 +1,6 @@
 # Project: Digital Ethics Presentation on Piracy
 
-This is a Quarto website project for a course group presentation on digital piracy (CS-E5480 Digital Ethics), published on GitHub Pages. The deliverable is a slide deck: each perspective is a reveal.js presentation page within the site.
+This is a Quarto website project for a course group presentation on digital piracy (CS-E5480 Digital Ethics), published on GitHub Pages. Each perspective is a readable HTML page within the site -- not a reveal.js slide deck.
 
 ## Project Type
 
@@ -18,7 +18,7 @@ quarto publish gh-pages  # Render and push to gh-pages branch for GitHub Pages
 
 ## Conventions
 
-- Slide content lives in `.qmd` files using `format: revealjs` front matter
+- Content lives in `.qmd` files rendered as HTML (theme: slate); the global format is set in `_quarto.yml`, not per-file front matter
 - One `.qmd` per perspective (Creators, Consumers, Ownership)
 - Generated output goes to the `gh-pages` branch, never committed to `main`
 - Keep `_quarto.yml` as the single source of truth for site config
