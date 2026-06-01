@@ -36,7 +36,7 @@ The financial calculation is highly relative. Until the cost of legal media beco
 
 ### Economic Pressure
 
-Digital piracy does not exist in a vacuum. It acts as a powerful economic competitor. Gabe Newell, the co-founder of Valve, famously observed that piracy is almost always a service problem rather than a pricing problem. If a legal provider offers a product instantly, reliably, and in a convenient format, consumers are more likely to pay for it. He proved this theory by introducing Steam to the Russian market. Many industry analysts believed Russia was a lost cause due to rampant piracy, but Steam became a massive commercial success there because it outcompeted illicit sites on convenience, localization, and ease of use.
+Digital piracy acts as a powerful economic competitor of established sources. Gabe Newell, the co-founder of Valve, famously observed that piracy is almost always a service problem rather than a pricing problem. If a legal provider offers a product instantly, reliably, and in a convenient format, consumers are more likely to pay for it. He proved this theory by introducing Steam to the Russian market. Many industry analysts believed Russia was a lost cause due to rampant piracy, but Steam became a massive commercial success there because it outcompeted illicit sites on convenience, localization, and ease of use.
 
 Therefore, piracy exerts a vital downward price pressure on the legitimate market. It acts as an invisible competitor that forces media companies to keep their prices reasonable and improve their user experiences. When pirate sites offer a superior, friction-free experience, legal merchants must innovate to survive. 
 
@@ -55,9 +55,9 @@ In this hostile environment, pirate communities often perform the essential work
 
 ### Access to Censored and Free Media
 
-The flow of information is highly restricted in many parts of the world. In nations like Russia and China, state authorities maintain a tight grip on internet traffic and official media distribution. They routinely modify, delay, or ban foreign art, literature, and news that conflicts with government narratives. In these heavily censored environments, unauthorized file-sharing networks become essential pipelines for truth. 
+The flow of information is highly restricted in many parts of the world. In nations like Russia and China, state authorities maintain a tight grip on internet traffic and official media distribution. They routinely modify, delay, or ban foreign art, literature, and news that conflicts with government narratives. In these heavily censored environments, unauthorized file-sharing networks become essential pipelines for information. 
 
-Decentralized peer-to-peer protocols, such as BitTorrent, are incredibly difficult for governments to shut down. They allow citizens to bypass state-mandated firewalls and access uncensored, original versions of global media. For these populations, piracy is not merely a cheap way to watch movies, but an informal institution of freedom. It acts as a vital smuggling route for art, culture, and independent journalism. Yet, navigating these unregulated channels carries severe risks. Seeking access to forbidden media through illicit sources can expose users to intense state surveillance, heavy legal penalties, and dangerous cyber-threats.
+Decentralized peer-to-peer protocols, such as BitTorrent, are difficult for governments to shut down. They allow citizens to bypass state-built firewalls and access uncensored, original versions of global media. For these populations, piracy is not merely a cheap way to watch movies, but an informal institution of freedom. It acts as a vital smuggling route for art, culture, and independent journalism. Yet, navigating these unregulated channels carries severe risks. Seeking access to forbidden media through illicit sources can expose users to intense state surveillance, heavy legal penalties, and dangerous cyber-threats.
 
 
 ## 4 The Honest Merchant's Toll
