@@ -390,6 +390,7 @@ nav[role="doc-toc"] a:hover, .toc a:hover, #TOC a:hover {
 }
 
 #TOC { border-left: 2px solid var(--border-gold) !important; padding-left: 1rem; }
+#TOC .collapse { display: block !important; }
 
 /* ── Footer ── */
 .nav-footer, footer {
