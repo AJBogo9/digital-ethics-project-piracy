@@ -1,5 +1,6 @@
 ---
 title: "Consumer Training: Media Access"
+author: "Hai Dang"
 toc-expand: true
 ---
 
@@ -21,18 +22,11 @@ Consumers will now be boarded onto the pirate ship.
 
 ### Pirate Ship Perspective
 
-To the digital pirate, the modern web resembles a fractured archipelago where travelers are forced to pay a costly toll at every single port. Legitimate streaming services demand exclusive access fees. This creates a fragmented journey that frustrates the average user. 
-
 Pirates argue that this commercial fragmentation directly encourages illicit downloading. When official channels fail to provide a simple, centralized gateway, consumers look for a single unified route. Pirate websites and illegal streaming aggregators succeed because they solve this search and convenience friction. They bring the entire scattered archipelago back into a single, easily accessible harbor.
-
-### Discussion Questions
-
-1. What happens when content is locked behind many gates?
-2. How does this change a viewer’s choice between paying or pirating?
 
 ## 2 Managing the Ship's Coinpurse
 
-A pirate ship needs a budget. This lesson explores how piracy is often justified as a money-saving measure.
+A pirate ship needs a budget. This section explores how piracy is often justified as a money-saving measure.
 
 ### When Cost Matters
 
@@ -42,14 +36,12 @@ The financial calculation is highly relative. Until the cost of legal media beco
 
 ### Economic Pressure
 
-Digital piracy does not exist in a vacuum. It acts as a powerful economic competitor. Gabe Newell, the co-founder of Valve, famously observed that piracy is almost always a service problem rather than a pricing problem. If a legal provider offers a product instantly, reliably, and in a convenient format, consumers will happily pay for it. He proved this theory by introducing Steam to the Russian market. Many industry analysts believed Russia was a lost cause due to rampant piracy, but Steam became a massive commercial success there because it outcompeted illicit sites on convenience, localization, and ease of use.
+Digital piracy does not exist in a vacuum. It acts as a powerful economic competitor. Gabe Newell, the co-founder of Valve, famously observed that piracy is almost always a service problem rather than a pricing problem. If a legal provider offers a product instantly, reliably, and in a convenient format, consumers are more likely to pay for it. He proved this theory by introducing Steam to the Russian market. Many industry analysts believed Russia was a lost cause due to rampant piracy, but Steam became a massive commercial success there because it outcompeted illicit sites on convenience, localization, and ease of use.
 
-Therefore, piracy exerts a vital upward pressure on the legitimate market. It acts as an invisible competitor that forces media companies to keep their prices reasonable and improve their user experiences. When pirate sites offer a superior, friction-free experience, legal merchants must innovate to survive. However, this economic feedback loop is not a simple justification for every individual choice. While piracy can drive positive market reforms, it also risks starving smaller, independent creators who lack the capital to survive even minor revenue losses.
+Therefore, piracy exerts a vital downward price pressure on the legitimate market. It acts as an invisible competitor that forces media companies to keep their prices reasonable and improve their user experiences. When pirate sites offer a superior, friction-free experience, legal merchants must innovate to survive. 
 
-### Reflection
+However, this economic feedback loop is not a simple justification for every individual choice. While piracy can drive positive market reforms, it also risks starving smaller, independent creators who lack the resources to survive even minor revenue losses.
 
-- What is the difference between saving money and taking something unfairly?
-- How do prices shape creative choices for consumers?
 
 ## 3 Smuggling Truth & Ancient Archives
 
@@ -67,10 +59,6 @@ The flow of information is highly restricted in many parts of the world. In nati
 
 Decentralized peer-to-peer protocols, such as BitTorrent, are incredibly difficult for governments to shut down. They allow citizens to bypass state-mandated firewalls and access uncensored, original versions of global media. For these populations, piracy is not merely a cheap way to watch movies, but an informal institution of freedom. It acts as a vital smuggling route for art, culture, and independent journalism. Yet, navigating these unregulated channels carries severe risks. Seeking access to forbidden media through illicit sources can expose users to intense state surveillance, heavy legal penalties, and dangerous cyber-threats.
 
-### Classroom Activity
-
-- List a work that might be hard to access legally in a restrictive region.
-- Discuss whether archiving it is preservation or piracy.
 
 ## 4 The Honest Merchant's Toll
 
@@ -88,10 +76,6 @@ Predictable revenue is the lifeblood of the creative industry. Legal media provi
 
 This erosion of trust has a cascading effect on legitimate buyers. When honest consumers see that millions of people are accessing the same content for free with zero consequences, they begin to question their own choices. They may start to feel foolish for paying. This dynamic weakens the overall incentive to participate in the legal market, which can eventually destabilize the entire digital ecosystem. Without trust and mutual respect between buyers, sellers, and creators, the legal market cannot sustain itself.
 
-### Questions
-
-- Is it fair for legal customers to subsidize others who pirate?
-- How should a market balance access with support for creators?
 
 ## 5 Scurvy, Scams, and Software Sea Monsters
 
@@ -109,10 +93,6 @@ Pirating media may seem like an easy, cost-free shortcut, but the hidden expense
 
 The software sea monsters lurking on these platforms can cause permanent damage. Users routinely download Trojan horses, ransomware, and spyware that are disguised as media files. These infections can silently harvest personal logins, capture financial data, or lock down entire devices for extortion. In some cases, compromised computers are co-opted into massive botnets to launch distributed denial-of-service attacks. When a user chooses to pirate, they are often trading their digital safety and personal identity for a temporary discount.
 
-### Critical Thinking
-
-- How can you tell whether a site is safe?
-- Should avoiding risk influence your decision to use pirated media?
 
 ## 6 The Ghost Crew's True Masters
 
@@ -130,10 +110,7 @@ The financial scale of the digital piracy ecosystem is staggering. Globally, ad-
 
 For the ethical consumer, this funding structure creates a profound moral conflict. Many users choose to pirate because they want to avoid supporting what they see as greedy media conglomerates, but their traffic directly enriches commercial criminal syndicates. These illicit profits do not support creative development or cultural preservation. Instead, they fund international criminal organizations that engage in identity theft, financial fraud, and wider cyber-crime networks. When a consumer visits a pirate site, they are actively funding a shadow industry that makes the entire internet less safe for everyone.
 
-### Discussion
 
-- If a site depends on piracy income, how does that affect its ethics?
-- What alternatives exist for supporting access without harming creators?
 
 ## References
 
