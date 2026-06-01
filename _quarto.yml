@@ -12,6 +12,9 @@ website:
       - href: ownership.qmd
         text: Ownership
 
+bibliography: references.bib
+csl: apa.csl
+
 format:
   html:
     theme: slate
