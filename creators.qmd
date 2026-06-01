@@ -1,6 +1,6 @@
 ---
 title: "The Creator's Perspective"
-author: "Andreas"
+author: "Andreas Bogossian"
 bibliography: references.bib
 ---
 
