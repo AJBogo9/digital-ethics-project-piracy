@@ -1,6 +1,7 @@
 ---
 title: "Consumer Training: Media Access"
 author: "Hai Dang"
+bibliography: references.bib
 toc-expand: true
 ---
 
@@ -12,11 +13,11 @@ In this lesson we sail through the scattered seas of paid media platforms.
 
 ### The Fragmented Map
 
-The modern streaming landscape is no longer a simple, unified ocean. In the early days of digital distribution, services like Netflix and Spotify offered consumers a single, centralized library for a reasonable monthly fee. That initial promise has vanished. Today, original entertainment is scattered across dozens of isolated digital islands. Major media conglomerates have withdrawn their properties from shared services to build their own exclusive platforms (Leskovšek, 2024). Manga, music, television series, and feature films are split across a dizzying array of competing portals. 
+The modern streaming landscape is no longer a simple, unified ocean. In the early days of digital distribution, services like Netflix and Spotify offered consumers a single, centralized library for a reasonable monthly fee. That initial promise has vanished. Today, original entertainment is scattered across dozens of isolated digital islands. Major media conglomerates have withdrawn their properties from shared services to build their own exclusive platforms [@leskovšek2024]. Manga, music, television series, and feature films are split across a dizzying array of competing portals. 
 
-This corporate balkanization has created a severe burden. To watch a basic selection of popular shows or read their favorite serialized manga, fans are forced to maintain multiple simultaneous subscriptions (Priancha & Khairunnisa, 2024). Managing these accounts is exhausting. Consumers face an overwhelming cognitive load as they navigate separate billing cycles, user interfaces, and login credentials. This phenomenon is often termed subscription fatigue. 
+This corporate balkanization has created a severe burden. To watch a basic selection of popular shows or read their favorite serialized manga, fans are forced to maintain multiple simultaneous subscriptions [@priancha2024]. Managing these accounts is exhausting. Consumers face an overwhelming cognitive load as they navigate separate billing cycles, user interfaces, and login credentials. This phenomenon is often termed subscription fatigue. 
 
-The financial reality of this fragmentation is stark. Because each digital service charges its subscription fee independently of its competitors, the cumulative cost of legal access rises rapidly. For lower-earning consumers, students, or families living in developing economies, a complete subscription stack is simply unaffordable (Leskovšek, 2024). They are priced out of the legitimate market. When legal options are economically impossible, many consumers find themselves drawn back to the unofficial channels of digital piracy. They resort to downloading or streaming media from unauthorized vendors who charge little or nothing for access.
+The financial reality of this fragmentation is stark. Because each digital service charges its subscription fee independently of its competitors, the cumulative cost of legal access rises rapidly. For lower-earning consumers, students, or families living in developing economies, a complete subscription stack is simply unaffordable [@leskovšek2024]. They are priced out of the legitimate market. When legal options are economically impossible, many consumers find themselves drawn back to the unofficial channels of digital piracy. They resort to downloading or streaming media from unauthorized vendors who charge little or nothing for access.
 
 Consumers will now be boarded onto the pirate ship.
 
@@ -30,9 +31,9 @@ A pirate ship needs a budget. This section explores how piracy is often justifie
 
 ### When Cost Matters
 
-Cost is a powerful driver of human behavior. For the average consumer, turning to digital piracy is frequently a rational, utility-maximizing economic decision. When household budgets are tight, paying for premium software licenses and streaming subscriptions is difficult to justify. Many consumers view piracy as a necessary budget-saving strategy. They use it to protect their personal coinpurse while still participating in contemporary cultural life. 
+Cost is a powerful driver of human behavior. For the average consumer, turning to digital piracy is frequently a rational, utility-maximizing economic decision. When household budgets are tight, paying for premium software licenses and streaming subscriptions is difficult to justify. Many consumers view piracy as a necessary budget-saving strategy, while still participating in contemporary cultural life. 
 
-The financial calculation is highly relative. Until the cost of legal media becomes negligible compared to a person's monthly disposable income, unauthorized downloading remains highly attractive (Leskovšek, 2024). This disparity is especially clear in low-income brackets and among students. It is also highly visible in regions where purchasing power parity is not reflected in regional pricing models. For instance, a student who wants access to a vast, costly music library or a reader following dozens of serialized manga series may find the cumulative cost of legal purchases completely prohibitive. For them, piracy feels like the only viable path to access.
+The financial calculation is highly relative. Until the cost of legal media becomes negligible compared to a person's monthly disposable income, unauthorized downloading remains highly attractive [@leskovšek2024]. This disparity is especially clear among low-income brackets, students, and regions where purchasing power parity is not reflected in regional pricing models. For instance, a student who wants access to a vast, costly music library or a reader following dozens of serialized manga series may find the cumulative cost of legal purchases completely prohibitive. For them, piracy feels like the only viable path to access.
 
 ### Economic Pressure
 
@@ -49,7 +50,7 @@ This section looks at piracy as a way of preserving content and granting access 
 
 ### Archiving Forgotten Work
 
-The preservation of digital culture is currently in a state of crisis. A landmark 2023 study by the Video Game History Foundation revealed a shocking reality: approximately 87 percent of classic video games released in the United States before 2010 are out of print. They are completely unavailable through legitimate commercial channels. When media companies delist classic games, remove digital movies from storefronts, or let older television shows sink into obscurity, legal consumers have no official way to purchase them. 
+The preservation of digital culture is currently in a state of crisis. A landmark 2023 study by the Video Game History Foundation [@vghf2023] revealed a shocking reality: approximately 87 percent of classic video games released in the United States before 2010 are out of print. They are completely unavailable through legitimate commercial channels. When media companies delist classic games, remove digital movies from storefronts, or let older television shows sink into obscurity, legal consumers have no official way to purchase them. 
 
 In this hostile environment, pirate communities often perform the essential work of cultural preservation. They act as informal curators of human history. These groups locate, rip, and archive rare or forgotten media that would otherwise disappear forever into digital oblivion. The rise of shadow libraries like Anna's Archive, Sci-Hub, and Library Genesis represents a parallel effort in the academic world. These platforms circumvent restrictive academic paywalls to make scientific knowledge freely available to researchers globally. For many preservationists, this form of unauthorized sharing is not a malicious act of theft, but a necessary campaign of cultural rescue.
 
@@ -89,7 +90,7 @@ The hazards on these platforms are frequent and severe. Visitors are routinely b
 
 ### Cost of Convenience
 
-Pirating media may seem like an easy, cost-free shortcut, but the hidden expenses can be devastating. Visitors to unauthorized websites face an incredibly high risk of cyber-security compromise. Industry research and cybersecurity reports demonstrate that consumers are up to 65 times more likely to encounter malware on piracy sites than on legitimate web portals (Digital Citizens Alliance, 2021). The "free" price tag of pirated content is a dangerous illusion. 
+Pirating media may seem like an easy, cost-free shortcut, but the hidden expenses can be devastating. Visitors to unauthorized websites face an incredibly high risk of cyber-security compromise. Industry research and cybersecurity reports demonstrate that consumers are up to 65 times more likely to encounter malware on piracy sites than on legitimate web portals [@dca_piracy2021]. The "free" price tag of pirated content is a dangerous illusion. 
 
 The software sea monsters lurking on these platforms can cause permanent damage. Users routinely download Trojan horses, ransomware, and spyware that are disguised as media files. These infections can silently harvest personal logins, capture financial data, or lock down entire devices for extortion. In some cases, compromised computers are co-opted into massive botnets to launch distributed denial-of-service attacks. When a user chooses to pirate, they are often trading their digital safety and personal identity for a temporary discount.
 
@@ -106,18 +107,10 @@ To generate revenue, these platforms employ highly aggressive, unregulated monet
 
 ### Side Effects of Pirate Funding
 
-The financial scale of the digital piracy ecosystem is staggering. Globally, ad-supported piracy websites and illicit streaming apps generate more than 2.5 billion dollars in annual revenue (Digital Citizens Alliance, 2021). This massive influx of money creates a powerful financial incentive for operators to keep their illegal operations online. It is a highly lucrative business model. 
+The financial scale of the digital piracy ecosystem is staggering. Globally, ad-supported piracy websites and illicit streaming apps generate more than 2.5 billion dollars in annual revenue [@dca_piracy2021]. This massive influx of money creates a powerful financial incentive for operators to keep their illegal operations online. It is a highly lucrative business model. 
 
 For the ethical consumer, this funding structure creates a profound moral conflict. Many users choose to pirate because they want to avoid supporting what they see as greedy media conglomerates, but their traffic directly enriches commercial criminal syndicates. These illicit profits do not support creative development or cultural preservation. Instead, they fund international criminal organizations that engage in identity theft, financial fraud, and wider cyber-crime networks. When a consumer visits a pirate site, they are actively funding a shadow industry that makes the entire internet less safe for everyone.
 
 
 
 ## References
-
-Digital Citizens Alliance. (2021). *Fishing in the Piracy Waters: How Malvertising and Malware Threaten Consumers on Piracy Sites*. <https://www.digitalcitizensalliance.org/>
-
-Leskovšek, N. (2024). *Streaming Services Vs. Digital Piracy: The Process of Entertainment Media Consumption* (Bachelor's thesis, University of Twente). <https://essay.utwente.nl/>
-
-Priancha, A., & Khairunnisa, A. (2024). *Subscription Fatigue and the Resurgence of Digital Piracy in the OTT Era*. Universitas Indonesia Law Review.
-
-Video Game History Foundation. (2023). *Survey of the Preservation Status of U.S. Video Games*. <https://gamehistory.org/preservation-study/>
