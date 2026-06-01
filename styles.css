@@ -794,3 +794,36 @@ main.content > *:nth-child(5) { animation-delay: 0.25s; }
   color: var(--gold-fire);
   transform: translateX(4px);
 }
+
+/* ── Sidebar & TOC Scrollbar Fix ── */
+/* Hide the ugly scrollbar on sidebar */
+.quarto-sidebar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.quarto-sidebar::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+/* Make TOC nav sticky for smooth page scroll */
+nav[role="doc-toc"] {
+  position: sticky;
+  top: 0;
+  height: auto;
+  overflow: visible;
+}
+
+/* Alternative for older Quarto versions using #TOC */
+#TOC {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+#TOC::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+}
