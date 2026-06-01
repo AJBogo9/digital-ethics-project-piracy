@@ -3,52 +3,71 @@ title: "The Government's Perspective"
 author: "Son Tong"
 ---
 
-## The Legislative History of Digital Piracy
+## Introduction: The Legislative History of Digital Piracy
 
-To understand how governments came to adopt their current positions on digital piracy, it is essential to trace the historical arc of intellectual property law and its adaptation to the digital age. The key milestones in the modern era, particularly relevant to piracy, are as follows:  
-- **1886: Berne Convention** The Berne Convention, widely recognized as the first major multilateral international copyright treaty, introduced the principles of national treatment and minimum protection terms (Copyright Clearance Center, n.d.).  
+To understand how governments came to adopt their current positions on digital piracy, we first trace the history of intellectual property law and its adaptation to the digital age. The key milestones in the modern era, particularly relevant to piracy, are as follows:  
+- **1886: Berne Convention** The Berne Convention, widely recognized as the first major multilateral international copyright treaty, introduced the principles of national treatment and minimum protection terms [@ccc_copyright_treaties].  
 - **1994: WTO TRIPS Agreement** The Trade-Related Aspects of Intellectual Property Rights (TRIPS) Agreement established guidelines for the protection of digital works and enforcement in the context of global trade.  
 - **1996: WIPO Copyright Treaty** As works increasingly existed in digital formats, traditional copyright frameworks struggled to address these new issues. The World Intellectual Property Organization (WIPO) responded with the WIPO Copyright Treaty (WCT), explicitly extending copyright into the digital environment.   
 - **1998: DMCA** The Digital Millennium Copyright Act (DMCA) made it illegal to circumvent technological measures used to prevent unauthorized access to or copying of copyrighted works, particularly books, movies, videos, video games, and computer programs.  
-- **2001: EU InfoSoc Directive** The EU's Information Society Directive (2001/29/EC) harmonized copyright law across member states for the digital age, implementing the WIPO Internet Treaties into European law. It granted rights holders exclusive control over reproduction and online communication, while allowing member states to adopt limited exceptions for education and research.  
+- **2001: EU Copyright Directive** The EU's Information Society Directive (2001/29/EC) harmonized copyright law across member states for the digital age, implementing the WIPO Internet Treaties into European law. It granted rights holders exclusive control over reproduction and online communication, while allowing member states to adopt limited exceptions for education and research.  
 - **2011-2012: SOPA/PIPA Debates** The Stop Online Piracy Act (SOPA) and its Senate counterpart PROTECT IP Act (PIPA) were defeated by an enormous online campaign, culminating in an Internet Blackout on January 18, 2012. This significantly reshaped the government policy debate on enforcement overreach.   
-- **2013/2016: Marrakesh Treaty** Adopted in 2013 and entering into force in 2016, the Marrakesh Treaty requires signatory governments to create copyright exceptions permitting the production and cross-border exchange of accessible-format works such as Braille or audio books for visually impaired persons. It represents a recognition that copyright must sometimes yield to public interest, consistent with the Berne Convention's three-step test for copyright exemptions.   
-- **2019-2021: Copyright Modernization Laws** Around this period, many countries updated their frameworks for the platform era. The EU's Digital Single Market Directive (2019/790) was the most consequential, introducing platform upload filters and new press publishers' rights against tech aggregators. The U.S. passed the Copyright Alternative in Small-Claims Enforcement (CASE) Act in 2020. These reforms reflect the ongoing legislative struggle to adapt copyright law to streaming, algorithmic distribution, and social media.    
+- **2013/2016: Marrakesh Treaty** Adopted in 2013 and entering into force in 2016, the Marrakesh Treaty requires signatory governments to create copyright exceptions permitting the production and cross-border exchange of accessible-format works such as Braille or audio books for visually impaired persons. 
+- **2019-2021: Copyright Modernization Laws** Around this period, many countries updated their frameworks for the platform era. The EU's Digital Single Market Directive (2019/790) was the most consequential, introducing platform upload filters and new press publishers' rights against tech aggregators. The U.S. passed the Copyright Alternative in Small-Claims Enforcement (CASE) Act in 2020.  
 
-The laws governments enforce today are not neutral or inevitable. The timeline itself reveals their limits: the most aggressive anti-piracy bills ever proposed in a democratic legislature died under public opposition in 2012, and 2016's Marrakesh Treaty moved in the opposite direction, mandating a copyright exception for the first time. Even governments, it seems, are not fully certain their enforcement stance can be justified.  
+```{mermaid}
+---
+config:
+  theme: base
+  themeVariables:
+    primaryTextColor: 'rgb(97, 32, 32)'
+---
+timeline
+    title "Evolution of Copyright Enforcement Policy"
+    1886 : Berne Convention (first international copyright treaty)
+    1994 : WTO TRIPS Agreement (global enforcement standards)
+    1996 : WIPO Copyright Treaty (specifically address digital rights)
+    1998 : U.S. DMCA (Digital Millennium Copyright Act)
+    2001 : EU Copyright Directive (EU Information Society Directive)
+    2012 : SOPA/PIPA Debates (U.S. anti-piracy bills, not enacted)
+    2016 : Marrakesh Treaty (copyright exceptions for disability)
+    2020 : Copyright Modernization Laws (many countries update digital rules)
+```  
+This legislative history shows that copyright law did not spontaneously emerge. Each milestone was a direct response to new technologies and shifting power dynamics. The laws governments enforce today are the cumulative product of decades of contested negotiation between creators, industries, and the public. 
+
 
 ## The Government’s Position  
 Unlike creators or consumers, governments hold two roles simultaneously, and they pull in opposite directions:  
-- As enforcer: Governments are obligated under domestic law and international treaty to protect intellectual property rights. For example, under TRIPS, wilful copyright piracy on a commercial scale must be subject to criminal offences, and states must give customs authorities the power to seize pirated goods at the border (WTO, 1994). Non-compliance can trigger WTO dispute mechanisms and trade sanctions.  
-- As public trustee: Governments also exist to promote the general welfare of their citizens. Copyright law itself encodes this dual role; it grants creators a limited monopoly, not a permanent one, and includes built-in exceptions for education, research, and fair use precisely because unrestricted IP enforcement can conflict with the public interest.  
+- **As enforcer:** Governments are obligated under domestic law and international treaty to protect intellectual property rights. For example, under TRIPS, wilful copyright piracy on a commercial scale must be subject to criminal offences, and states must give customs authorities the power to seize pirated goods at the border [@WTO_agreements]. Non-compliance can trigger WTO dispute mechanisms and trade sanctions.  
+- **As public trustee:** Governments also exist to promote the general welfare of their citizens. Copyright law itself encodes this dual role; it grants creators a limited monopoly, and includes exceptions for education, research, and fair use because unrestricted IP enforcement can conflict with the public interest.  
 This distinction matters because the two roles can produce directly contradictory obligations: a government enforcing TRIPS strictly may simultaneously be denying its own citizens access to textbooks, scientific research, and cultural goods they cannot afford.  
 
 ## Ethical Frameworks  
-- **Social Contract Theory**: Moral obligations arise from agreements, explicit or implicit, between citizens and their institutions. (Internet Encyclopedia of Philosophy, n.d.) The key question is what rules people would freely and fairly agree to.  
-- **Deontological Ethics**: Actions are judged by whether they conform to universal duties, regardless of consequences (Khasanova, 2024). Kant's Categorical Imperative instructs agents to act only on maxims that could be universalized without contradiction (Kant, 1785/1998).  
-- **Consequentialism**: The view that the moral rightness of an action depends entirely on its consequences. Thus, outcomes (economic, social, and security-related) are what matter morally (Card & Smith, 2020).  
+- **Social Contract Theory**: Moral obligations arise from agreements, explicit or implicit, between citizens and their institutions[@philosophy_wikipedia]. The key question is what rules people would freely and fairly agree to.  
+- **Deontological Ethics**: Actions are judged by whether they conform to universal duties, regardless of consequences (Khasanova, 2024). Kant's Categorical Imperative instructs agents to act only on maxims that could be universalized without contradiction [@kant_philosophy].  
+- **Consequentialism**: The view that the moral rightness of an action depends entirely on its consequences. Thus, outcomes (economic, social, and security-related) are what matter morally [@consequentialism].  
 
 ## Copyright as a Social Contract  
-Copyright is not an absolute property right but a social contract granted to creators in exchange for eventual public access through the public domain. This legal architecture reflects a Lockean intuition, that creators naturally deserve the fruits of their intellectual labor, balanced against a concern for the collective good and public access (Fisher, 2001). Piracy breaks this bargain prematurely, because it deprives creators of their entitlement before the public benefit phase arrives.  
+Copyright is not an absolute property right but a social contract granted to creators in exchange for eventual public access through the public domain. This reflects a Lockean intuition that creators naturally deserve the fruits of their intellectual labour, balanced against a concern for the collective good and public access [@intellectual_property_theories]. Piracy breaks this bargain prematurely because it deprives creators of their entitlement before the public benefit phase arrives.  
 However, the contract binds both sides. A government that enforces creator rights while failing to ensure affordable public access has also broken its half of the deal. The social contract framework therefore supports enforcement and demands equity.  
 
 ## Deontological Analysis: Duties and Rights  
 Kant's Categorical Imperative delivers one of the clearest philosophical arguments against piracy. If the maxim "I will use copyrighted content without paying whenever I prefer not to" were universalized, creative industries would collapse. The maxim contradicts itself when generalized, making piracy impermissible as a matter of principle, independent of any empirical harm it causes.  
-Yet Kant also constrains how governments may enforce. The Formula of Humanity states that you should treat humanity always as an end, and never merely as a means to an end. (Kant, 1785/1998) Thus, criminally prosecuting economically vulnerable end-users risks treating them as deterrence instruments rather than persons of dignity. Deontological ethics thus supports targeting commercial-scale piracy while exercising restraint toward individual end-users.  
+Yet Kant also constrains how governments may enforce. The Formula of Humanity states that you should treat humanity always as an end, and never merely as a means to an end [@kant_philosophy]. Therefore, criminally prosecuting economically vulnerable end-users risks treating them as deterrence instruments rather than persons of dignity. Deontological ethics thus supports targeting commercial-scale piracy while exercising restraint toward individual end-users.  
 
 ## Consequentialist Analysis: Weighing Welfare  
 A utilitarian analysis of piracy must consider both the harms and benefits it generates. 
 On the harm side:  
-- **Economic losses:** Global online piracy costs the U.S. economy at least $29.2 billion in lost revenue annually, with 200,000-500,000 jobs lost and $47.5-115.3 billion in GDP impact (U.S. Chamber of Commerce, 2019).  
+- **Economic losses:** Global online piracy costs the U.S. economy at least $29.2 billion in lost revenue annually, with 200,000-500,000 jobs lost and $47.5-115.3 billion in GDP impact [@piracy_impact].  
 - **Tax shortfalls:** Pirated goods bypass income, sales, and VAT contributions, directly eroding public budgets.  
-- **Cybersecurity harm:** Users with piracy apps are three times more likely to suffer malware infections; 50% of those in sensitive professional roles (government, healthcare, finance) who use piracy devices reported malware incidents (Digital Citizens Alliance, 2021).  
-- **Innovation disincentive:** If piracy reduces creator earnings, it risks discouraging future production, which is a harm that ultimately falls on the public (Danaher et al., 2013).  
-However, consequentialism does not yield a straightforward verdict. Piracy also generates welfare: students in low-income countries access textbooks they could never afford; individuals reach cultural works priced beyond their means. Pistorius and Mwim (2019) warn that aggressive technological protections "may hinder data literacy, access to works, teaching and learning, particularly in developing communities." Therefore, in utilitarian perspective, harms exist on both sides, and optimal policy must weigh them carefully.  
+- **Cybersecurity harm:** Users with piracy apps are three times more likely to suffer malware infections; 50% of those in sensitive professional roles (government, healthcare, finance) who use piracy devices reported malware incidents [@DCA_cybersecurity2021].  
+- **Innovation disincentive:** If piracy reduces creator earnings, it risks discouraging future production, which is a harm that ultimately falls on the public [@piracy_legal].  
+However, consequentialism does not yield a straightforward verdict. Piracy also generates welfare: students in low-income countries access textbooks they could never afford; individuals reach cultural works priced beyond their means. Pistorius and Mwim [@impact_piracy_learning] warn that aggressive technological protections "may hinder data literacy, access to works, teaching and learning, particularly in developing communities." Therefore, based on the utilitarian framework, harms exist on both sides, and the optimal policy must weigh them carefully.  
 
 ## Policy Implications  
-Across all four frameworks, the analysis converges on a balanced framework rather than blanket prohibition:  
+Across all four frameworks, the analysis converges on a balanced framework rather than full prohibition:  
 - **Proportionate enforcement:** Focus criminal penalties on commercial-scale piracy; avoid prosecuting individuals driven by inaccessibility.  
-- **Demand-side reform:** Expand affordable legal alternatives; evidence suggests access reduces piracy more effectively than enforcement alone (Danaher et al., 2013).  
+- **Demand-side reform:** Expand affordable legal alternatives; evidence suggests access reduces piracy more effectively than enforcement alone [@piracy_legal].  
 - **International equity reform:** Push for stronger educational fair-use exceptions and development-friendly treaty terms within WIPO and WTO.  
 - **Copyright reform:** Ensure copyright terms and exceptions genuinely serve the public interest, not just incumbent industries.  
 
