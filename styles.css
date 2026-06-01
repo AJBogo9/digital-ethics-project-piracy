@@ -424,6 +424,18 @@ main.content > *:nth-child(5) { animation-delay: 0.25s; }
   to   { opacity: 1; }
 }
 
+/* ── References ── */
+#refs, #refs * {
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+/* ── Mermaid diagrams ── */
+.cell-output-display, .mermaid {
+  overflow-x: auto;
+  max-width: 100%;
+}
+
 /* ── Quarto callouts ── */
 .callout { border-color: var(--border-gold) !important; background: rgba(240, 180, 41, 0.05) !important; }
 .callout-title { color: var(--gold-aged) !important; }
@@ -806,8 +818,7 @@ nav[role="doc-toc"],
 #TOC {
   scrollbar-width: none !important;
   -ms-overflow-style: none !important;
-  overflow-y: visible !important;
-  overflow: visible !important;
+  overflow-x: hidden !important;
 }
 
 .quarto-sidebar::-webkit-scrollbar,

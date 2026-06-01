@@ -6,18 +6,14 @@ website:
   favicon: images/favicon.png
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - href: about.qmd
-        text: About
-      - href: legislation.qmd
-        text: Legislation
       - href: consumers.qmd
         text: Consumer
       - href: creators.qmd
         text: Creator
       - href: ownership.qmd
         text: Ownership
+      - href: legislation.qmd
+        text: Legislation
 
 bibliography: references.bib
 csl: apa.csl

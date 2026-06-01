@@ -16,31 +16,17 @@ To understand how governments came to adopt their current positions on digital p
 - **2019-2021: Copyright Modernization Laws** Around this period, many countries updated their frameworks for the platform era. The EU's Digital Single Market Directive (2019/790) was the most consequential, introducing platform upload filters and new press publishers' rights against tech aggregators. The U.S. passed the Copyright Alternative in Small-Claims Enforcement (CASE) Act in 2020.  
 
 ```{mermaid}
----
-config:
-  theme: base
-  themeVariables:
-    primaryTextColor: 'rgb(97, 32, 32)'
----
-timeline
-    title "Evolution of Copyright Enforcement Policy"
-    1886 : Berne Convention (first international copyright treaty)
-    1994 : WTO TRIPS Agreement (global enforcement standards)
-    1996 : WIPO Copyright Treaty (specifically address digital rights)
-    1998 : U.S. DMCA (Digital Millennium Copyright Act)
-    2001 : EU Copyright Directive (EU Information Society Directive)
-    2012 : SOPA/PIPA Debates (U.S. anti-piracy bills, not enacted)
-    2016 : Marrakesh Treaty (copyright exceptions for disability)
-    2020 : Copyright Modernization Laws (many countries update digital rules)
-```  
+flowchart TD
+    A["**1886**: Berne Convention<br/>First international copyright treaty"] -->
+    B["**1994**: WTO TRIPS Agreement<br/>Global enforcement standards"] -->
+    C["**1996**: WIPO Copyright Treaty<br/>Extends copyright into digital environment"] -->
+    D["**1998**: U.S. DMCA<br/>Digital Millennium Copyright Act"] -->
+    E["**2001**: EU Copyright Directive<br/>EU Information Society Directive"] -->
+    F["**2012**: SOPA/PIPA Debates<br/>U.S. anti-piracy bills, not enacted"] -->
+    G["**2016**: Marrakesh Treaty<br/>Copyright exceptions for disability"] -->
+    H["**2020**: Copyright Modernization Laws<br/>Many countries update digital rules"]
+```
 This legislative history shows that copyright law did not spontaneously emerge. Each milestone was a direct response to new technologies and shifting power dynamics. The laws governments enforce today are the cumulative product of decades of contested negotiation between creators, industries, and the public. 
-
-
-## The Government’s Position  
-Unlike creators or consumers, governments hold two roles simultaneously, and they pull in opposite directions:  
-- **As enforcer:** Governments are obligated under domestic law and international treaty to protect intellectual property rights. For example, under TRIPS, wilful copyright piracy on a commercial scale must be subject to criminal offences, and states must give customs authorities the power to seize pirated goods at the border [@WTO_agreements]. Non-compliance can trigger WTO dispute mechanisms and trade sanctions.  
-- **As public trustee:** Governments also exist to promote the general welfare of their citizens. Copyright law itself encodes this dual role; it grants creators a limited monopoly, and includes exceptions for education, research, and fair use because unrestricted IP enforcement can conflict with the public interest.  
-This distinction matters because the two roles can produce directly contradictory obligations: a government enforcing TRIPS strictly may simultaneously be denying its own citizens access to textbooks, scientific research, and cultural goods they cannot afford.  
 
 ## Ethical Frameworks  
 - **Social Contract Theory**: Moral obligations arise from agreements, explicit or implicit, between citizens and their institutions[@philosophy_wikipedia]. The key question is what rules people would freely and fairly agree to.  
