@@ -1,6 +1,5 @@
 ---
 title: "The Creator's Perspective"
-author: "Andreas"
 bibliography: references.bib
 ---
 
@@ -15,8 +14,8 @@ bibliography: references.bib
 - Copyright grants creators two types of rights under the Berne Convention (Article 6bis) [@wipo1886]:
   - **Economic rights**: the right to be compensated for use of one's work; these can be transferred or licensed
   - **Moral rights**: the right to claim authorship and object to modifications that harm reputation; these *cannot* be transferred or waived
-- Piracy primarily undermines economic rights, but can also affect moral rights (e.g., modified or cracked versions of a work distributed without the creator's consent) [@moralrights_wiki]
-- The US copyright tradition is rooted almost entirely in economic rights, while the European/French tradition ("droits d'auteur") places greater weight on moral rights -- this shapes how different legal systems treat piracy [@moralrights_wiki]
+- Piracy primarily undermines economic rights, but can also affect moral rights (e.g., modified or cracked versions of a work distributed without the creator's consent)
+- The US copyright tradition is rooted almost entirely in economic rights, while the European/French tradition ("droits d'auteur") places greater weight on moral rights -- this shapes how different legal systems treat piracy
 
 ## Ethical Frameworks
 
@@ -28,9 +27,9 @@ Three philosophical frameworks frame the debate:
 
 ## The Case Against Piracy: Harm to Creators
 
-- **Metallica v. Napster (2000)**: the landmark creator-vs-piracy case. After discovering an unreleased demo circulating on Napster, Metallica identified 335,435 individual users sharing their catalogue and demanded they all be banned. Drummer Lars Ulrich testified before the US Senate, arguing that Napster "never asked us or other artists if we wanted to participate in their business" [@metallica_napster_wiki]. This is a Kantian argument at its core: Napster used artists' work as a means without seeking their consent, regardless of whether revenue was actually lost. The case forced Napster into shutdown and shaped digital copyright law for a decade.
+- **Metallica v. Napster (2000)**: the landmark creator-vs-piracy case. After discovering an unreleased demo circulating on Napster, Metallica identified 335,435 individual users sharing their catalogue and demanded they all be banned. Drummer Lars Ulrich testified before the US Senate, arguing that Napster "never asked us or other artists if we wanted to participate in their business". This is a Kantian argument at its core: Napster used artists' work as a means without seeking their consent, regardless of whether revenue was actually lost. The case forced Napster into shutdown and shaped digital copyright law for a decade.
 - **Lost income**: pirated copies represent potential sales that never materialise; most evidence suggests file sharing does displace media sales [@waldfogel2012] -- the Lockean case made concrete: the creator's labour produces something of value, and piracy takes it without consent or compensation
-- **Indie creators are disproportionately hurt**: major studios can absorb losses, but small teams rely on every purchase to fund continued development and future projects [@guardingpear]
+- **Indie creators are disproportionately hurt**: major studios can absorb losses, but small teams rely on every purchase to fund continued development and future projects
 - **Reduced incentive to innovate**: with limited revenue, studios gravitate toward proven formulas rather than experimental work -- empirical research on film confirms that piracy "reduces creative incentives" and negatively impacts the quality of new productions [@cmu_piracy]
 
 ## The Case For Piracy: Access and Distribution
@@ -45,10 +44,10 @@ Three philosophical frameworks frame the debate:
 
 ## Ethical Tensions and Nuances
 
-- **Does creator size change the moral calculus?** Pirating from a billion-dollar studio is structurally different from pirating from a two-person indie team, even if the act is the same [@guardingpear] -- this intuition sits uneasily with Kantian ethics, where the wrongness of an act is independent of the target's wealth or market position
+- **Does creator size change the moral calculus?** Pirating from a billion-dollar studio is structurally different from pirating from a two-person indie team, even if the act is the same -- this intuition sits uneasily with Kantian ethics, where the wrongness of an act is independent of the target's wealth or market position
 - **The post-Napster paradox**: the recorded music industry saw dramatic revenue decline after Napster, yet the quantity of critically recognised new music did not decline -- raising questions about what "harm to creators" actually means in practice [@waldfogel2012]
 
-## Conclusion
+## Conclusion -- move summary to a separate conclusions page?
 
 The creator's perspective on piracy resists a simple verdict. Lockean property rights and Kantian respect for consent both support strong creator protection, and the Metallica case and indie developer stories show that real harm occurs -- particularly where economic survival is at stake. Yet the utilitarian evidence complicates the picture: creative supply proved resilient even after Napster, and cases like Hotline Miami 2 and CD Projekt Red show that creators themselves sometimes find piracy preferable to the alternatives on offer. The morally relevant factor may not be piracy per se, but context: who is pirating, from whom, under what conditions, and with what legitimate alternatives available. A framework that treats all piracy as equivalent -- whether from a teenager in a low-income country or a bulk commercial operation -- misses the ethical distinctions that actually matter.
 
