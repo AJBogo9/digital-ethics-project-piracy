@@ -1,0 +1,22 @@
+---
+title: "Contribution Statement"
+format: typst
+---
+
+## Group Members
+
+- Andreas Bogossian
+- Dang (family name)
+- Oskari (family name)
+
+## Contributions
+
+**Andreas Bogossian** wrote the Creators perspective, covering arguments for and against piracy from the viewpoint of content creators, with a focus on income, incentives, access, and distribution.
+
+**Dang** wrote the Consumers perspective, covering consumer motivations for piracy including cost, platform fragmentation, censorship circumvention, and archiving.
+
+**Oskari** wrote the Digital Ownership perspective, covering subscription versus ownership models, platform dependency, and the Stop Killing Games initiative.
+
+**Son** wrote the ... (what ever he wrote).
+
+All group members contributed to the overall structure and site design, and reviewed each other's sections before submission.
