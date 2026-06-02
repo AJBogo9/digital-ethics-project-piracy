@@ -5,11 +5,7 @@ author: "Oskari Hiedanpää"
 
 ## The ethical question
 
-When you pay full price to buy something digital, can you truly own it or are you just renting access until the seller decides otherwise? What you "buy" is usually a licence to access the content, not the content itself. Most content nowadays is only available digitally, or is much easier to get digitally, so you effectively have to buy the digital versions. In this section we examine if the methods companies use in selling their digital products to consumers are really ethical.
-
-::: aside
-Sources: @eff_drb; @ftc2024
-:::
+When you pay full price to buy something digital, can you truly own it or are you just renting access until the seller decides otherwise? What you "buy" is usually a licence to access the content, not the content itself [@eff_drb; @ftc2024]. Most content nowadays is only available digitally, or is much easier to get digitally, so you effectively have to buy the digital versions. In this section we examine if the methods companies use in selling their digital products to consumers are really ethical.
 
 
 ## Rent vs. own
@@ -22,36 +18,30 @@ Sources: @eff_drb; @ftc2024
 | Resell/lend? | No | No | Yes |
 | Updatable? | Yes | Yes | No |
 
-::: aside
-Sources: @eff_drb; @ftc2024
-:::
+[@eff_drb; @ftc2024]
 
 
 ## Platform dependency
 
 - Your library is tied to one platform's app and account
 - You cannot move it to a competitor or export it
-- You cannot resell or lend individual items
+- You cannot resell or lend individual items [@eff_drb]
 - If you leave the platform, your library leaves you
-- If the platform gets shut down, your library gets shut down
+- If the platform gets shut down, your library gets shut down [@eci_videogames]
 
 None of these issues exist with physical media
-
-::: aside
-Sources: @eff_drb; @ftc2024; @eci_videogames
-:::
 
 
 ## Arguments for
 
 The terms are disclosed and buyers agree to them
 
-- The user has to accept the EULA, which means they know what they sign up for
+- The user has to accept the EULA, which means they know what they sign up for [@eff_drb]
 
 Digital Rights Management (DRM) technologies protect creators from piracy
 
 - Prevent you from sharing copies of your downloads
-- Check the validity of game files by connecting to online servers
+- Check the validity of game files by connecting to online servers [@king2026]
 
 Digital can be cheaper and is more convenient.
 
@@ -62,35 +52,27 @@ Being online enables updates
 
 - Developers can patch bugs and give more content through the internet
 
-::: aside
-Sources: @eff_drb; @king2026
-:::
-
 
 ## Arguments against
 
 The terms are huge papers that no one has the time to read
 
-- Studies confirm that they are accepted in seconds without further reading
+- Studies confirm that they are accepted in seconds without further reading [@obar2020]
 
 DRMs sometimes have incompatibility issues
 
-- If you want to play a game with bad internet, you probably can't
+- If you want to play a game with bad internet, you probably can't [@king2026]
 - Some Anti-Cheats don't work on all platforms, for example Windows vs Linux
-- DRMs are usually cracked on the first day anyway, so adding them just hurts the lawful consumers (see CD Projekt Red's response to this in [The Creator's Perspective](creators.qmd))
+- DRMs are usually cracked on the first day anyway, so adding them just hurts the lawful consumers [@eff_drb] (see CD Projekt Red's response to this in [The Creator's Perspective](creators.qmd))
 
 Digital is easier to take away than physical
 
-- You can never be sure when a platform shuts down, or the developer just decides to not support a game anymore
+- You can never be sure when a platform shuts down, or the developer just decides to not support a game anymore [@eci_videogames]
 - Physical can only be stolen physically, which is much less common
 
 Updating shouldn't require you to be online 24/7
 
-- Allow updating when you feel like it and don't force you to always be online if there just happens to be a new update just now
-
-::: aside
-Sources: @obar2020; @king2026; @eci_videogames; @eff_drb
-:::
+- Allow updating when you feel like it and don't force you to always be online if there just happens to be a new update just now [@king2026]
 
 
 ## Ethical questions
