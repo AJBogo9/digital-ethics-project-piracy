@@ -1,9 +1,8 @@
 ---
 title: "Declaration of AI Use"
 format: typst
+suppress-bibliography: true
 ---
-
-## Declaration
 
 AI tools were used during this project as an aid, not as a source of content. All arguments, analyses, and conclusions are original work by the group members. Sources were identified, read, and verified independently.
 

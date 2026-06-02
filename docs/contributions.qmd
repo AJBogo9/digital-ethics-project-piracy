@@ -1,6 +1,7 @@
 ---
 title: "Contribution Statement"
 format: typst
+suppress-bibliography: true
 ---
 
 ## Group Members
