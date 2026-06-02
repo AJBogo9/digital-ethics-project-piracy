@@ -19,6 +19,11 @@ website:
         text: Legislation
       - href: conclusion.qmd
         text: Conclusion
+    right:
+      - href: contributions.qmd
+        text: Contributions
+      - href: ai-usage.qmd
+        text: AI Use
 
 bibliography: references.bib
 csl: apa.csl

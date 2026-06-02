@@ -1,6 +1,6 @@
 ---
 title: "Contribution Statement"
-format: typst
+format: html
 suppress-bibliography: true
 ---
 

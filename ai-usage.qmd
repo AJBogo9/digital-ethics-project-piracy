@@ -1,6 +1,6 @@
 ---
 title: "Declaration of AI Use"
-format: typst
+format: html
 suppress-bibliography: true
 ---
 
