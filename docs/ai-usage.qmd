@@ -5,10 +5,13 @@ format: typst
 
 ## Declaration
 
-This project used AI assistance (Claude by Anthropic) during the writing and editing process. Specifically, AI was used to:
+AI tools were used during this project as an aid, not as a source of content. All arguments, analyses, and conclusions are original work by the group members. Sources were identified, read, and verified independently.
 
-- Help with brainstorming and coming up with perspectives that the authors might've not immediately came up with
-- Help draft, restructure, and refine prose in the individual perspective sections
-- Assist with site configuration and technical setup (Quarto, CSS)
+Specifically, AI assistance was limited to:
 
-All arguments, analyses, and conclusions are the work of the group members. AI-generated text was reviewed, edited, and approved by the respective author of each section. Sources were identified and verified independently by the group.
+- Brainstorming to stress-test angles and identify counter-arguments, which authors then developed in their own words
+- Technical setup and site configuration (Quarto, CSS)
+- Editorial tasks: identifying duplicate content across sections, adding cross-references, and fixing citation formatting
+- Feedback on clarity and structure, which authors reviewed and fixed based on their own judgement
+
+No AI-generated text appears in the final content. Every section was written, reviewed, and approved by its named author.
