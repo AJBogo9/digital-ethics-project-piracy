@@ -19,7 +19,7 @@ quarto publish gh-pages  # Render and push to gh-pages branch for GitHub Pages
 ## Conventions
 
 - Content lives in `.qmd` files rendered as HTML (theme: slate); the global format is set in `_quarto.yml`, not per-file front matter
-- One `.qmd` per perspective (Creators, Consumers, Ownership)
+- One `.qmd` per perspective (Creators, Consumers, Ownership, Legislation)
 - Generated output goes to the `gh-pages` branch, never committed to `main`
 - Keep `_quarto.yml` as the single source of truth for site config
 - Academic tone: cite sources consistently (APA), engage counter-arguments, avoid unsupported claims

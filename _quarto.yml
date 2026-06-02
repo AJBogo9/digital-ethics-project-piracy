@@ -17,6 +17,8 @@ website:
         text: Ownership
       - href: legislation.qmd
         text: Legislation
+      - href: conclusion.qmd
+        text: Conclusion
 
 bibliography: references.bib
 csl: apa.csl

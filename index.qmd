@@ -71,6 +71,17 @@ page-layout: full
   </a>
 </div>
 
+<p class="section-label">Where the Charts Converge</p>
+
+<div class="map-grid">
+  <a class="map-card" href="conclusion.qmd">
+    <p class="card-roman">&#9733;</p>
+    <p class="card-title">Conclusion</p>
+    <p class="card-teaser">Where the four perspectives meet: why piracy resists a single verdict, and what each lens reveals about the others.</p>
+    <span class="card-sail">Make Port &rarr;</span>
+  </a>
+</div>
+
 <script>
 (function () {
   var canvas = document.getElementById('ocean-canvas');

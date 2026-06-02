@@ -1,0 +1,11 @@
+---
+title: "Conclusion"
+---
+
+## The perspectives
+
+This project examined digital piracy from four perspectives: the consumer, the creator, the question of ownership and the government. The consumer perspective highlighted the tension between accessibility and fairness. As free-riders, pirates push the costs onto lawful consumers. The creator perspective showed the economic harm piracy can cause, but also the cases where creators embraced piracy as a distribution channel. The ownership perspective revealed how the current digital distribution model blurs the line between renting and owning, but also how it can be more convenient and cheaper. The government perspective showed that legal enforcement is necessary to protect creators' rights, but copyright is a two-sided contract and enforcement without affordable access harms vulnerable users and breaks the state's half of the bargain.
+
+## The "result"
+
+The goal of this project was not to find a definitive answer, but to explore the dilemmas involved in digital piracy in many dimensions. None of the perspectives can provide a clear answer. The question of whether piracy is ethical depends on the the context and the values of the stakeholders involved, and valid arguments exist for all sides.
