@@ -83,7 +83,7 @@ DRMs sometimes have incompatibility issues
 
 - If you want to play a game with bad internet, you probably can't
 - Some Anti-Cheats don't work on all platforms, for example Windows vs Linux
-- DRMs are usually cracked on the first day anyway, so adding them just hurts the lawful consumers
+- DRMs are usually cracked on the first day anyway, so adding them just hurts the lawful consumers (see CD Projekt Red's response to this in [The Creator's Perspective](creators.qmd))
 
 Digital is easier to take away than physical
 
