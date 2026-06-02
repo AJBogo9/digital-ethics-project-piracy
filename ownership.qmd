@@ -1,8 +1,7 @@
 ---
 title: "Digital Ownership"
 author: "Oskari Hiedanpää"
-
-
+---
 
 ## The ethical question
 
