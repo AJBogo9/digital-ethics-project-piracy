@@ -1,5 +1,68 @@
 [
   {
+    "objectID": "ownership.html",
+    "href": "ownership.html",
+    "title": "Digital Ownership",
+    "section": "",
+    "text": "When you pay full price to buy something digital, can you truly own it or are you just renting access until the seller decides otherwise? What you “buy” is usually a licence to access the content, not the content itself (Electronic Frontier Foundation, n.d.; Hebert, 2024). Most content nowadays is only available digitally, or is much easier to get digitally, so you effectively have to buy the digital versions. In this section we examine if the methods companies use in selling their digital products to consumers are really ethical."
+  },
+  {
+    "objectID": "ownership.html#the-ethical-question",
+    "href": "ownership.html#the-ethical-question",
+    "title": "Digital Ownership",
+    "section": "",
+    "text": "When you pay full price to buy something digital, can you truly own it or are you just renting access until the seller decides otherwise? What you “buy” is usually a licence to access the content, not the content itself (Electronic Frontier Foundation, n.d.; Hebert, 2024). Most content nowadays is only available digitally, or is much easier to get digitally, so you effectively have to buy the digital versions. In this section we examine if the methods companies use in selling their digital products to consumers are really ethical."
+  },
+  {
+    "objectID": "ownership.html#rent-vs.-own",
+    "href": "ownership.html#rent-vs.-own",
+    "title": "Digital Ownership",
+    "section": "Rent vs. own",
+    "text": "Rent vs. own\n\n\n\n\nSubscription\nDigital “purchase”\nPhysical copy\n\n\n\n\nPay once?\nNo\nYes\nYes\n\n\nRevocable?\nYes\nYes\nNo\n\n\nSurvives platform shutdown?\nNo\nNo\nYes\n\n\nResell/lend?\nNo\nNo\nYes\n\n\nUpdatable?\nYes\nYes\nNo\n\n\n\n(Electronic Frontier Foundation, n.d.; Hebert, 2024)"
+  },
+  {
+    "objectID": "ownership.html#platform-dependency",
+    "href": "ownership.html#platform-dependency",
+    "title": "Digital Ownership",
+    "section": "Platform dependency",
+    "text": "Platform dependency\n\nYour library is tied to one platform’s app and account\nYou cannot move it to a competitor or export it\nYou cannot resell or lend individual items (Electronic Frontier Foundation, n.d.)\nIf you leave the platform, your library leaves you\nIf the platform gets shut down, your library gets shut down (European Citizens’ Initiative, 2024)\n\nNone of these issues exist with physical media"
+  },
+  {
+    "objectID": "ownership.html#arguments-for",
+    "href": "ownership.html#arguments-for",
+    "title": "Digital Ownership",
+    "section": "Arguments for",
+    "text": "Arguments for\nThe terms are disclosed and buyers agree to them\n\nThe user has to accept the EULA, which means they know what they sign up for (Electronic Frontier Foundation, n.d.)\n\nDigital Rights Management (DRM) technologies protect creators from piracy\n\nPrevent you from sharing copies of your downloads\nCheck the validity of game files by connecting to online servers (King, 2026)\n\nDigital can be cheaper and is more convenient.\n\nIf companies don’t have to pay for manufacturing and distribution, the price can be deducted from the final product\nGetting access to games and movies straight from home is a modern luxury\n\nBeing online enables updates\n\nDevelopers can patch bugs and give more content through the internet"
+  },
+  {
+    "objectID": "ownership.html#arguments-against",
+    "href": "ownership.html#arguments-against",
+    "title": "Digital Ownership",
+    "section": "Arguments against",
+    "text": "Arguments against\nThe terms are huge papers that no one has the time to read\n\nStudies confirm that they are accepted in seconds without further reading (Obar & Oeldorf-Hirsch, 2020)\n\nDRMs sometimes have incompatibility issues\n\nIf you want to play a game with bad internet, you probably can’t (King, 2026)\nSome Anti-Cheats don’t work on all platforms, for example Windows vs Linux\nDRMs are usually cracked on the first day anyway, so adding them just hurts the lawful consumers (Electronic Frontier Foundation, n.d.) (see CD Projekt Red’s response to this in The Creator’s Perspective)\n\nDigital is easier to take away than physical\n\nYou can never be sure when a platform shuts down, or the developer just decides to not support a game anymore (European Citizens’ Initiative, 2024)\nPhysical can only be stolen physically, which is much less common\n\nUpdating shouldn’t require you to be online 24/7\n\nAllow updating when you feel like it and don’t force you to always be online if there just happens to be a new update just now (King, 2026)"
+  },
+  {
+    "objectID": "ownership.html#ethical-questions",
+    "href": "ownership.html#ethical-questions",
+    "title": "Digital Ownership",
+    "section": "Ethical questions",
+    "text": "Ethical questions\n\nIf a seller can revoke what you bought, is calling it a purchase honest, and does that make piracy self-defense, or just a convenient excuse?\nIf the terms are unfair, is the ethical response to refuse to buy, or to take the work anyway?\nIs consent that nobody reads still real consent?\nThe intrusive DRM comes from the platform, but piracy hits the creator. Is it fair to punish the developer for the store’s choices?\nIs there a happy medium where all sides are satisfied?"
+  },
+  {
+    "objectID": "ownership.html#references",
+    "href": "ownership.html#references",
+    "title": "Digital Ownership",
+    "section": "References",
+    "text": "References\n\n\nElectronic Frontier Foundation. (n.d.). Do i really own the digital media i bought? Retrieved https://drb.eff.org/topics/wait-i-don-t-own-the-digital-downloads-i-buy\n\n\nEuropean Citizens’ Initiative. (2024). Stop destroying videogames. https://citizens-initiative.europa.eu/initiatives/details/2024/000007_en\n\n\nHebert, A. (2024). Do you really own the digital items you paid for? Federal Trade Commission. https://consumer.ftc.gov/consumer-alerts/2024/04/do-you-really-own-digital-items-you-paid\n\n\nKing, J. (2026). PlayStation’s new policy is making extra sure you don’t own any of the games you buy. TheGamer. https://www.thegamer.com/playstation-drm-digital-games-policy-30-day-check-in/\n\n\nObar, J. A., & Oeldorf-Hirsch, A. (2020). The biggest lie on the internet: Ignoring the privacy policies and terms of service policies of social networking services. Information, Communication & Society, 23(1), 128–147. https://doi.org/10.1080/1369118X.2018.1486870"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Digital Piracy",
+    "section": "",
+    "text": "CS-E5480 Digital Ethics·Group Presentation\n    Digital Piracy\n    An Ethical Examination\n    \n      Piracy resists easy moral judgment. Depending on whose interests are\n      foregrounded (the consumer priced out of fragmented platforms, the creator\n      whose livelihood depends on compensation, or the buyer who discovers their\n      \"purchase\" was only ever a licence), the same act can appear as a rational\n      response, an ethical violation, or a symptom of a broken system. These four\n      perspectives do not converge on a verdict; they map the terrain of a genuinely\n      contested problem.\n    \n  \n\n  \n    \n      \n      Anonymous, A Spanish Galleon, mid-17th century engraving. Public domain.\n    \n  \n\n\n\n\n  ☠ Chart the Course ☠\n\n\nFour Perspectives\n\n\n  \n    I\n    The Consumer's Perspective\n    How fragmented streaming landscapes and rising subscription costs reframe piracy as a rational, if not justifiable, choice.\n    Set Sail →\n  \n  \n    II\n    The Creator's Perspective\n    Economic and moral rights under the Berne Convention, and what three philosophical frameworks reveal about the ethics of unpaid use.\n    Set Sail →\n  \n  \n    III\n    Ownership and Licensing\n    When clicking \"Buy\" delivers a revocable licence instead of property, the ethical calculus of piracy shifts in ways the law has not caught up with.\n    Set Sail →\n  \n  \n    IV\n    The Government's Perspective\n    How international treaties and domestic law shape the state's dual role as enforcer of copyright and guardian of the public interest.\n    Set Sail →"
+  },
+  {
     "objectID": "consumers.html",
     "href": "consumers.html",
     "title": "Consumer Training: Media Access",
@@ -91,69 +154,6 @@
     "text": "References\n\n\natVenu. (2023). How much money artists make in streaming royalties vs. Merchandise sales. https://www.atvenu.com/post/how-much-money-artists-make-in-streaming-vs-merchandise-sales\n\n\nDitto Music. (2024). How much does spotify pay per stream? https://dittomusic.com/en/blog/how-much-does-spotify-pay-per-stream\n\n\nEngadget. (2015). “Just pirate it,” Hotline Miami 2 dev tells australian fan. https://www.engadget.com/2015-01-16-just-pirate-it-hotline-miami-2-dev-tells-australian-fan.html\n\n\nLomas, E. (2016). CD Projekt Red: Don’t punish pirates, win them over. MCV/DEVELOP. https://mcvuk.com/business-news/publishing/cd-projekt-red-dont-punish-pirates-win-them-over/\n\n\nPurchese, R. (2016). Some real talk on piracy from a Witcher 3 dev. Kotaku. https://kotaku.com/some-real-talk-on-piracy-from-a-witcher-3-dev-1783864910\n\n\nWaldfogel, J. (2012). Music piracy and its effects on demand, supply, and welfare. Innovation Policy and the Economy, 12(1), 91–109. https://www.journals.uchicago.edu/doi/full/10.1086/663157\n\n\nWorld Intellectual Property Organization. (1886). Berne convention for the protection of literary and artistic works. https://www.wipo.int/wipolex/en/text/283698"
   },
   {
-    "objectID": "ownership.html",
-    "href": "ownership.html",
-    "title": "Digital Ownership",
-    "section": "",
-    "text": "When you pay full price to buy something digital, can you truly own it or are you just renting access until the seller decides otherwise? What you “buy” is usually a licence to access the content, not the content itself (Electronic Frontier Foundation, n.d.; Hebert, 2024). Most content nowadays is only available digitally, or is much easier to get digitally, so you effectively have to buy the digital versions. In this section we examine if the methods companies use in selling their digital products to consumers are really ethical."
-  },
-  {
-    "objectID": "ownership.html#the-ethical-question",
-    "href": "ownership.html#the-ethical-question",
-    "title": "Digital Ownership",
-    "section": "",
-    "text": "When you pay full price to buy something digital, can you truly own it or are you just renting access until the seller decides otherwise? What you “buy” is usually a licence to access the content, not the content itself (Electronic Frontier Foundation, n.d.; Hebert, 2024). Most content nowadays is only available digitally, or is much easier to get digitally, so you effectively have to buy the digital versions. In this section we examine if the methods companies use in selling their digital products to consumers are really ethical."
-  },
-  {
-    "objectID": "ownership.html#rent-vs.-own",
-    "href": "ownership.html#rent-vs.-own",
-    "title": "Digital Ownership",
-    "section": "Rent vs. own",
-    "text": "Rent vs. own\n\n\n\n\nSubscription\nDigital “purchase”\nPhysical copy\n\n\n\n\nPay once?\nNo\nYes\nYes\n\n\nRevocable?\nYes\nYes\nNo\n\n\nSurvives platform shutdown?\nNo\nNo\nYes\n\n\nResell/lend?\nNo\nNo\nYes\n\n\nUpdatable?\nYes\nYes\nNo\n\n\n\n(Electronic Frontier Foundation, n.d.; Hebert, 2024)"
-  },
-  {
-    "objectID": "ownership.html#platform-dependency",
-    "href": "ownership.html#platform-dependency",
-    "title": "Digital Ownership",
-    "section": "Platform dependency",
-    "text": "Platform dependency\n\nYour library is tied to one platform’s app and account\nYou cannot move it to a competitor or export it\nYou cannot resell or lend individual items (Electronic Frontier Foundation, n.d.)\nIf you leave the platform, your library leaves you\nIf the platform gets shut down, your library gets shut down (European Citizens’ Initiative, 2024)\n\nNone of these issues exist with physical media"
-  },
-  {
-    "objectID": "ownership.html#arguments-for",
-    "href": "ownership.html#arguments-for",
-    "title": "Digital Ownership",
-    "section": "Arguments for",
-    "text": "Arguments for\nThe terms are disclosed and buyers agree to them\n\nThe user has to accept the EULA, which means they know what they sign up for (Electronic Frontier Foundation, n.d.)\n\nDigital Rights Management (DRM) technologies protect creators from piracy\n\nPrevent you from sharing copies of your downloads\nCheck the validity of game files by connecting to online servers (King, 2026)\n\nDigital can be cheaper and is more convenient.\n\nIf companies don’t have to pay for manufacturing and distribution, the price can be deducted from the final product\nGetting access to games and movies straight from home is a modern luxury\n\nBeing online enables updates\n\nDevelopers can patch bugs and give more content through the internet"
-  },
-  {
-    "objectID": "ownership.html#arguments-against",
-    "href": "ownership.html#arguments-against",
-    "title": "Digital Ownership",
-    "section": "Arguments against",
-    "text": "Arguments against\nThe terms are huge papers that no one has the time to read\n\nStudies confirm that they are accepted in seconds without further reading (Obar & Oeldorf-Hirsch, 2020)\n\nDRMs sometimes have incompatibility issues\n\nIf you want to play a game with bad internet, you probably can’t (King, 2026)\nSome Anti-Cheats don’t work on all platforms, for example Windows vs Linux\nDRMs are usually cracked on the first day anyway, so adding them just hurts the lawful consumers (Electronic Frontier Foundation, n.d.) (see CD Projekt Red’s response to this in The Creator’s Perspective)\n\nDigital is easier to take away than physical\n\nYou can never be sure when a platform shuts down, or the developer just decides to not support a game anymore (European Citizens’ Initiative, 2024)\nPhysical can only be stolen physically, which is much less common\n\nUpdating shouldn’t require you to be online 24/7\n\nAllow updating when you feel like it and don’t force you to always be online if there just happens to be a new update just now (King, 2026)"
-  },
-  {
-    "objectID": "ownership.html#ethical-questions",
-    "href": "ownership.html#ethical-questions",
-    "title": "Digital Ownership",
-    "section": "Ethical questions",
-    "text": "Ethical questions\n\nIf a seller can revoke what you bought, is calling it a purchase honest, and does that make piracy self-defense, or just a convenient excuse?\nIf the terms are unfair, is the ethical response to refuse to buy, or to take the work anyway?\nIs consent that nobody reads still real consent?\nThe intrusive DRM comes from the platform, but piracy hits the creator. Is it fair to punish the developer for the store’s choices?\nIs there a happy medium where all sides are satisfied?"
-  },
-  {
-    "objectID": "ownership.html#references",
-    "href": "ownership.html#references",
-    "title": "Digital Ownership",
-    "section": "References",
-    "text": "References\n\n\nElectronic Frontier Foundation. (n.d.). Do i really own the digital media i bought? Retrieved https://drb.eff.org/topics/wait-i-don-t-own-the-digital-downloads-i-buy\n\n\nEuropean Citizens’ Initiative. (2024). Stop destroying videogames. https://citizens-initiative.europa.eu/initiatives/details/2024/000007_en\n\n\nHebert, A. (2024). Do you really own the digital items you paid for? Federal Trade Commission. https://consumer.ftc.gov/consumer-alerts/2024/04/do-you-really-own-digital-items-you-paid\n\n\nKing, J. (2026). PlayStation’s new policy is making extra sure you don’t own any of the games you buy. TheGamer. https://www.thegamer.com/playstation-drm-digital-games-policy-30-day-check-in/\n\n\nObar, J. A., & Oeldorf-Hirsch, A. (2020). The biggest lie on the internet: Ignoring the privacy policies and terms of service policies of social networking services. Information, Communication & Society, 23(1), 128–147. https://doi.org/10.1080/1369118X.2018.1486870"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Digital Piracy",
-    "section": "",
-    "text": "CS-E5480 Digital Ethics·Group Presentation\n    Digital Piracy\n    An Ethical Examination\n    \n      Piracy resists easy moral judgment. Depending on whose interests are\n      foregrounded (the consumer priced out of fragmented platforms, the creator\n      whose livelihood depends on compensation, or the buyer who discovers their\n      \"purchase\" was only ever a licence), the same act can appear as a rational\n      response, an ethical violation, or a symptom of a broken system. These four\n      perspectives do not converge on a verdict; they map the terrain of a genuinely\n      contested problem.\n    \n  \n\n  \n    \n      \n      Anonymous, A Spanish Galleon, mid-17th century engraving. Public domain.\n    \n  \n\n\n\n\n  ☠ Chart the Course ☠\n\n\nFour Perspectives\n\n\n  \n    I\n    The Consumer's Perspective\n    How fragmented streaming landscapes and rising subscription costs reframe piracy as a rational, if not justifiable, choice.\n    Set Sail →\n  \n  \n    II\n    The Creator's Perspective\n    Economic and moral rights under the Berne Convention, and what three philosophical frameworks reveal about the ethics of unpaid use.\n    Set Sail →\n  \n  \n    III\n    Ownership and Licensing\n    When clicking \"Buy\" delivers a revocable licence instead of property, the ethical calculus of piracy shifts in ways the law has not caught up with.\n    Set Sail →\n  \n  \n    IV\n    The Government's Perspective\n    How international treaties and domestic law shape the state's dual role as enforcer of copyright and guardian of the public interest.\n    Set Sail →"
-  },
-  {
     "objectID": "legislation.html",
     "href": "legislation.html",
     "title": "The Government’s Perspective",
@@ -215,33 +215,5 @@
     "title": "The Government’s Perspective",
     "section": "References",
     "text": "References\n\n\nCard, D., & Smith, N. (2020). On consequentialism and fairness. https://www.researchgate.net/publication/338355359_On_Consequentialism_and_Fairness\n\n\nCopyright Clearance Center. (n.d.). International copyright treaties. Retrieved https://www.copyright.com/education-copyright-foundations/international-copyright-treaties/\n\n\nDanaher, B., Smith, M., & Telang, R. (2013). Piracy and copyright enforcement mechanisms. https://www.nber.org/papers/w19150\n\n\nDigital Citizens Alliance. (2021). COVID-19 lockdown and piracy: A toxic combination for cybersecurity. https://www.digitalcitizensalliance.org/news/press-releases-2021/covid-19-lockdown-and-piracy-a-toxic-combination-for-cybersecurity-digital-citizens-alliance-research-finds/\n\n\nFisher, W. (2001). Theories of intellectual property. https://dash.harvard.edu/handle/1/37373274\n\n\nInternet Encyclopedia of Philosophy. (n.d.). Social contract theory. Retrieved https://iep.utm.edu/soc-cont/\n\n\nKorsgaard, C. (2012). Kant: Groundwork of the metaphysics of morals. Cambridge University Press. https://www.cambridge.org/highereducation/books/kant-groundwork-of-the-metaphysics-of-morals/3C27822145D94F9E2F27362C1089810C#contents\n\n\nPistorius, T., & Odirachukwu, M. (2019). The impact of digital copyright law and policy on access to knowledge and learning. https://www.researchgate.net/publication/340395842_The_impact_of_digital_copyright_law_and_policy_on_access_to_knowledge_and_learning\n\n\nU.S. Chamber of Commerce. (2019). Impacts of digital video piracy on the u.s. economy. https://www.uschamber.com/assets/documents/Digital_Video_Piracy_June_2019.pdf"
-  },
-  {
-    "objectID": "docs/project-plan.html",
-    "href": "docs/project-plan.html",
-    "title": "Project Plan: Digital Ethics Essay on Piracy",
-    "section": "",
-    "text": "Arguments for piracy: - Wider (equal) access to content in restricted areas (games banned in Australia, other censored content) - Wider distribution of content\nArguments against piracy: - Creators lose income - Are not incentivised to create as much content\n\n\n\n\nArguments for piracy: - Means for obtaining original efforts (manga, Blood, Taylor Swift catalogue) - Saves money (until costs become negligible to income) - Content fragmented across multiple platforms - Access to censored content and free media (Russia and China) - Archiving and saving information so that it doesn’t get forgotten (Anna’s Archive)\nArguments against piracy: - Unfair to people who follow the law (paying streaming fees) - Unregulated and risky: viruses and scams - Piracy sites need income too - Promote gambling\n\n\n\n\n\nRenting (subscription) vs. owning\nMedia platform dependency: the media you purchase is locked into the platform\nIf a platform shuts down, what happens to the media you “own”?\nStop Killing Games initiative: online games can’t be played when providers shut down servers\n\nWikipedia: Stop Killing Games\n\n\n\n\n\n\n\nWhat aspects of a media piece can you copyright, and what makes it distinct enough to be copyrightable?\n\nReference video\n\nDoes the size of the creator affect the morality of pirating? Is it okay to pirate from commercially successful companies vs. indie studios? Where is the limit?\n\n\n\n\n\n\n\nQuarto website (main deliverable)\n3000-4000 words\nMinimum 5 credible sources (good mix)\nDeclare any AI usage\n5-minute presentation of the website\nContribution statement\n\n\n\n\n\n\nThree perspectives, each person takes one\nDraft via pull requests\nWrite in bullet points initially\nDeadline: 5 June 2026"
-  },
-  {
-    "objectID": "docs/project-plan.html#perspectives",
-    "href": "docs/project-plan.html#perspectives",
-    "title": "Project Plan: Digital Ethics Essay on Piracy",
-    "section": "",
-    "text": "Arguments for piracy: - Wider (equal) access to content in restricted areas (games banned in Australia, other censored content) - Wider distribution of content\nArguments against piracy: - Creators lose income - Are not incentivised to create as much content\n\n\n\n\nArguments for piracy: - Means for obtaining original efforts (manga, Blood, Taylor Swift catalogue) - Saves money (until costs become negligible to income) - Content fragmented across multiple platforms - Access to censored content and free media (Russia and China) - Archiving and saving information so that it doesn’t get forgotten (Anna’s Archive)\nArguments against piracy: - Unfair to people who follow the law (paying streaming fees) - Unregulated and risky: viruses and scams - Piracy sites need income too - Promote gambling\n\n\n\n\n\nRenting (subscription) vs. owning\nMedia platform dependency: the media you purchase is locked into the platform\nIf a platform shuts down, what happens to the media you “own”?\nStop Killing Games initiative: online games can’t be played when providers shut down servers\n\nWikipedia: Stop Killing Games\n\n\n\n\n\n\n\nWhat aspects of a media piece can you copyright, and what makes it distinct enough to be copyrightable?\n\nReference video\n\nDoes the size of the creator affect the morality of pirating? Is it okay to pirate from commercially successful companies vs. indie studios? Where is the limit?"
-  },
-  {
-    "objectID": "docs/project-plan.html#deliverables",
-    "href": "docs/project-plan.html#deliverables",
-    "title": "Project Plan: Digital Ethics Essay on Piracy",
-    "section": "",
-    "text": "Quarto website (main deliverable)\n3000-4000 words\nMinimum 5 credible sources (good mix)\nDeclare any AI usage\n5-minute presentation of the website\nContribution statement"
-  },
-  {
-    "objectID": "docs/project-plan.html#work-division-and-timeline",
-    "href": "docs/project-plan.html#work-division-and-timeline",
-    "title": "Project Plan: Digital Ethics Essay on Piracy",
-    "section": "",
-    "text": "Three perspectives, each person takes one\nDraft via pull requests\nWrite in bullet points initially\nDeadline: 5 June 2026"
   }
 ]
