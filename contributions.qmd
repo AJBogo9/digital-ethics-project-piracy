@@ -21,4 +21,4 @@ suppress-bibliography: true
 
 **Son Tong** wrote the Government's perspective, tracing the legislative history of copyright from the Berne Convention to recent modernization laws, and analysing government enforcement policy through social contract theory, Kantian deontology, and consequentialism.
 
-All group members contributed to the brainstorming of content and overall structure. Cross-referencing between sections and removal of duplicate content was done collaboratively.
+All group members contributed to the brainstorming of content and overall structure. Assistively-flagged repetitive content was cross-checked, reviewed, and removed manually.
