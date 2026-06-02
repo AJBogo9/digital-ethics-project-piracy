@@ -1,7 +1,6 @@
 ---
 title: "Digital Ownership"
 author: "Oskari Hiedanpää"
----
 
 
 
@@ -13,7 +12,6 @@ When you pay full price to buy something digital, can you truly own it or are yo
 Sources: @eff_drb; @ftc2024
 :::
 
----
 
 ## Rent vs. own
 
@@ -29,7 +27,6 @@ Sources: @eff_drb; @ftc2024
 Sources: @eff_drb; @ftc2024
 :::
 
----
 
 ## Platform dependency
 
@@ -45,7 +42,6 @@ None of these issues exist with physical media
 Sources: @eff_drb; @ftc2024; @eci_videogames
 :::
 
----
 
 ## Arguments for
 
@@ -71,7 +67,6 @@ Being online enables updates
 Sources: @eff_drb; @king2026
 :::
 
----
 
 ## Arguments against
 
@@ -98,7 +93,6 @@ Updating shouldn't require you to be online 24/7
 Sources: @obar2020; @king2026; @eci_videogames; @eff_drb
 :::
 
----
 
 ## Ethical questions
 
@@ -108,7 +102,6 @@ Sources: @obar2020; @king2026; @eci_videogames; @eff_drb
 - The intrusive DRM comes from the platform, but piracy hits the creator. Is it fair to punish the developer for the store's choices?
 - Is there a happy medium where all sides are satisfied?
 
----
 
 ## References
 

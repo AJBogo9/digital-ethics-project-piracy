@@ -36,7 +36,7 @@ The financial calculation is highly relative. Until the cost of legal media beco
 
 ### Economic Pressure
 
-Digital piracy acts as a powerful economic competitor of established sources. Gabe Newell, the co-founder of Valve, famously observed that piracy is almost always a service problem rather than a pricing problem. If a legal provider offers a product instantly, reliably, and in a convenient format, consumers are more likely to pay for it. He proved this theory by introducing Steam to the Russian market. Many industry analysts believed Russia was a lost cause due to rampant piracy, but Steam became a massive commercial success there because it outcompeted illicit sites on convenience, localization, and ease of use.
+Digital piracy acts as a powerful economic competitor of established sources. Gabe Newell, the co-founder of Valve, famously observed that piracy is almost always a service problem rather than a pricing problem [@newell2011]. If a legal provider offers a product instantly, reliably, and in a convenient format, consumers are more likely to pay for it. He proved this theory by introducing Steam to the Russian market. Many industry analysts believed Russia was a lost cause due to rampant piracy, but Steam became a massive commercial success there because it outcompeted illicit sites on convenience, localization, and ease of use.
 
 Therefore, piracy exerts a vital downward price pressure on the legitimate market. It acts as an invisible competitor that forces media companies to keep their prices reasonable and improve their user experiences. When pirate sites offer a superior, friction-free experience, legal merchants must innovate to survive. 
 
