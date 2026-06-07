@@ -18,9 +18,9 @@ page-layout: full
       foregrounded (the consumer priced out of fragmented platforms, the creator
       whose livelihood depends on compensation, or the buyer who discovers their
       "purchase" was only ever a licence), the same act can appear as a rational
-      response, an ethical violation, or a symptom of a broken system. These four
-      perspectives do not converge on a verdict; they map the terrain of a genuinely
-      contested problem.
+      response, an ethical violation, or a symptom of a broken system. These four 
+      problems do not always agree; instead they represent many viewpoints across 
+      a widely debated matter.
     </p>
   </div>
 
