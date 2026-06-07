@@ -64,7 +64,7 @@ div.csl-indent {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-916aaf4f2c216c0035bd516cb166de5d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-7cdcdf02272c52d1e3032ea962f2ad39.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -93,65 +93,125 @@ div.csl-indent {
   }
 }</script>
 <!-- DNS + TLS handshake for Google Fonts done before CSS requests them -->
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
+
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 
+
+
 <!-- Load fonts as a <link> instead of CSS @import to avoid a blocking round-trip -->
+
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pirata+One&amp;family=Cinzel:wght@400;600;700;900&amp;family=Cinzel+Decorative:wght@400;700&amp;family=IM+Fell+English:ital@0;1&amp;family=Uncial+Antiqua&amp;display=swap">
 
+
+
 <!-- Preload the hero ship image on the landing page only -->
+
 <script>
+
 if (window.location.pathname === '/' || /index\.html$/.test(window.location.pathname)) {
+
   var l = document.createElement('link');
+
   l.rel = 'preload';
+
   l.as = 'image';
+
   l.href = 'images/galleon.jpg';
+
   document.head.appendChild(l);
+
 }
+
 </script>
+
+
 
 <!-- Speculation Rules: prerender same-origin pages on hover (Chrome 109+) -->
+
 <script type="speculationrules">
+
 {
+
   "prerender": [{
+
     "where": { "and": [
+
       { "href_matches": "/*" },
+
       { "not": { "href_matches": "/index.html" } }
+
     ]},
+
     "eagerness": "moderate"
+
   }]
+
 }
+
 </script>
+
+
 
 <!-- Remove animation fill-mode after fade-in completes to prevent stacking contexts
+
      that trap tippy citation tooltips behind sibling sections -->
+
 <script>
+
 document.addEventListener('animationend', function (e) {
+
   if (e.animationName === 'fade-in-up') {
+
     e.target.style.animation = 'none';
+
   }
+
 }, true);
+
 </script>
 
+
+
 <!-- Prefetch on hover fallback for browsers without Speculation Rules support -->
+
 <script>
+
 (function () {
+
   if (HTMLScriptElement.supports && HTMLScriptElement.supports('speculationrules')) return;
+
   var prefetched = new Set();
+
   document.addEventListener('mouseover', function (e) {
+
     var a = e.target.closest('a[href]');
+
     if (!a) return;
+
     var href = a.href;
+
     if (!href || a.origin !== location.origin) return;
+
     if (prefetched.has(href)) return;
+
     prefetched.add(href);
+
     var l = document.createElement('link');
+
     l.rel = 'prefetch';
+
     l.href = href;
+
     document.head.appendChild(l);
+
   });
+
 })();
+
 </script>
+
 <script src="site_libs/quarto-diagram/mermaid.min.js"></script>
 <script src="site_libs/quarto-diagram/mermaid-init.js"></script>
 <link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
@@ -178,6 +238,18 @@ document.addEventListener('animationend', function (e) {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.qmd"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./legislation.html" aria-current="page"> 
+<span class="menu-text">Legislation</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./consumers.html"> 
 <span class="menu-text">Consumer</span></a>
   </li>  
@@ -190,7 +262,7 @@ document.addEventListener('animationend', function (e) {
 <span class="menu-text">Ownership</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./legislation.html" aria-current="page"> 
+    <a class="nav-link" href="./legislation.html"> 
 <span class="menu-text">Legislation</span></a>
   </li>  
   <li class="nav-item">
@@ -271,7 +343,8 @@ document.addEventListener('animationend', function (e) {
 - <strong>1998: DMCA</strong> The Digital Millennium Copyright Act (DMCA) made it illegal to circumvent technological measures used to prevent unauthorized access to or copying of copyrighted works, particularly books, movies, videos, video games, and computer programs.<br>
 - <strong>2001: EU Copyright Directive</strong> The EU’s Information Society Directive (2001/29/EC) harmonized copyright law across member states for the digital age, implementing the WIPO Internet Treaties into European law. It granted rights holders exclusive control over reproduction and online communication, while allowing member states to adopt limited exceptions for education and research.<br>
 - <strong>2011-2012: SOPA/PIPA Debates</strong> The Stop Online Piracy Act (SOPA) and its Senate counterpart PROTECT IP Act (PIPA) were defeated by an enormous online campaign, culminating in an Internet Blackout on January 18, 2012. This significantly reshaped the government policy debate on enforcement overreach.<br>
-- <strong>2013/2016: Marrakesh Treaty</strong> Adopted in 2013 and entering into force in 2016, the Marrakesh Treaty requires signatory governments to create copyright exceptions permitting the production and cross-border exchange of accessible-format works such as Braille or audio books for visually impaired persons. - <strong>2019-2021: Copyright Modernization Laws</strong> Around this period, many countries updated their frameworks for the platform era. The EU’s Digital Single Market Directive (2019/790) was the most consequential, introducing platform upload filters and new press publishers’ rights against tech aggregators. The U.S. passed the Copyright Alternative in Small-Claims Enforcement (CASE) Act in 2020.</p>
+- <strong>2013/2016: Marrakesh Treaty</strong> Adopted in 2013 and entering into force in 2016, the Marrakesh Treaty requires signatory governments to create copyright exceptions permitting the production and exchange of accessible-format works such as Braille or audio books for visually impaired persons.<br>
+- <strong>2019-2021: Copyright Modernization Laws</strong> Around this period, many countries updated their frameworks for the new era. The EU’s Digital Single Market Directive (2019/790) was the most consequential, introducing platform upload filters and new press publishers’ rights against tech aggregators. The U.S. passed the Copyright Alternative in Small-Claims Enforcement (CASE) Act in 2020.</p>
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
 <div>
@@ -292,12 +365,12 @@ document.addEventListener('animationend', function (e) {
 </div>
 </div>
 </div>
-<p>This legislative history shows that copyright law did not spontaneously emerge. Each milestone was a direct response to new technologies and shifting power dynamics. The laws governments enforce today are the cumulative product of decades of contested negotiation between creators, industries, and the public.</p>
+<p>This legislative history shows that copyright law did not spontaneously emerge. Each milestone was a direct response to new technologies and shifting power dynamics. Therefore, the laws governments enforce today are the cumulative product of decades of negotiation between creators, industries, and the public.</p>
 </section>
 <section id="ethical-frameworks" class="level2">
 <h2 class="anchored" data-anchor-id="ethical-frameworks">Ethical Frameworks</h2>
 <ul>
-<li><strong>Social Contract Theory</strong>: Moral obligations arise from agreements, explicit or implicit, between citizens and their institutions<span class="citation" data-cites="philosophy_wikipedia">(<a href="#ref-philosophy_wikipedia" role="doc-biblioref">Internet Encyclopedia of Philosophy, n.d.</a>)</span>. The key question is what rules people would freely and fairly agree to.<br>
+<li><strong>Social Contract Theory</strong>: Moral obligations arise from agreements, explicit or implicit, between citizens and their institutions <span class="citation" data-cites="philosophy_wikipedia">(<a href="#ref-philosophy_wikipedia" role="doc-biblioref">Internet Encyclopedia of Philosophy, n.d.</a>)</span>. The key question is what rules people would freely and fairly agree to.<br>
 </li>
 <li><strong>Deontological Ethics</strong>: Actions are judged by whether they conform to universal duties, regardless of consequences (Khasanova, 2024). Kant’s Categorical Imperative instructs agents to act only on maxims that could be universalized without contradiction <span class="citation" data-cites="kant_philosophy">(<a href="#ref-kant_philosophy" role="doc-biblioref">Korsgaard, 2012</a>)</span>.<br>
 </li>
@@ -306,34 +379,34 @@ document.addEventListener('animationend', function (e) {
 </section>
 <section id="copyright-as-a-social-contract" class="level2">
 <h2 class="anchored" data-anchor-id="copyright-as-a-social-contract">Copyright as a Social Contract</h2>
-<p>Copyright is not an absolute property right but a social contract granted to creators in exchange for eventual public access through the public domain. This reflects a Lockean intuition that creators naturally deserve the fruits of their intellectual labour, balanced against a concern for the collective good and public access <span class="citation" data-cites="intellectual_property_theories">(<a href="#ref-intellectual_property_theories" role="doc-biblioref">Fisher, 2001</a>)</span>. Piracy breaks this bargain prematurely because it deprives creators of their entitlement before the public benefit phase arrives.<br>
-However, the contract binds both sides. A government that enforces creator rights while failing to ensure affordable public access has also broken its half of the deal. The social contract framework therefore supports enforcement and demands equity.</p>
+<p>Copyright is not an absolute property right but a social contract granted to creators in exchange for eventual public access through the public domain. This reflects a Lockean intuition that creators naturally deserve the fruits of their intellectual labour, balanced against a concern for the collective good and public access <span class="citation" data-cites="intellectual_property_theories">(<a href="#ref-intellectual_property_theories" role="doc-biblioref">Fisher, 2001</a>)</span>. Piracy breaks this bargain prematurely because it deprives creators of their entitlement before the public benefit phase arrives.</p>
+<p>However, the contract binds both sides. A government that enforces creator rights while failing to ensure affordable public access has also broken its half of the deal. The social contract framework therefore supports enforcement and demands equity.</p>
 </section>
 <section id="deontological-analysis-duties-and-rights" class="level2">
 <h2 class="anchored" data-anchor-id="deontological-analysis-duties-and-rights">Deontological Analysis: Duties and Rights</h2>
-<p>Kant’s Categorical Imperative delivers one of the clearest philosophical arguments against piracy. If the maxim “I will use copyrighted content without paying whenever I prefer not to” were universalized, creative industries would collapse. The maxim contradicts itself when generalized, making piracy impermissible as a matter of principle, independent of any empirical harm it causes.<br>
-Yet Kant also constrains how governments may enforce. The Formula of Humanity states that you should treat humanity always as an end, and never merely as a means to an end <span class="citation" data-cites="kant_philosophy">(<a href="#ref-kant_philosophy" role="doc-biblioref">Korsgaard, 2012</a>)</span>. Therefore, criminally prosecuting economically vulnerable end-users risks treating them as deterrence instruments rather than persons of dignity. Deontological ethics thus supports targeting commercial-scale piracy while exercising restraint toward individual end-users.</p>
+<p>Kant’s Categorical Imperative provides a powerful argument against piracy. If one adopts the maxim “I will use copyrighted content without paying whenever I prefer not to,” the practice is impossible to universalize consistently, as it depends on a system of rights and obligations from which the agent simultaneously seeks exemption. On this view, piracy is wrong as a matter of principle rather than merely because of its economic consequences.</p>
+<p>Yet Kant also constrains how governments may enforce. The Formula of Humanity states that you should treat humanity always as an end, and never merely as a means to an end <span class="citation" data-cites="kant_philosophy">(<a href="#ref-kant_philosophy" role="doc-biblioref">Korsgaard, 2012</a>)</span>. Hence, criminally prosecuting economically vulnerable end-users risks treating them as deterrence instruments rather than persons of dignity. Deontological ethics thus supports targeting commercial-scale piracy while advocating for restraint in actions against individual end-users who are genuinely in need.</p>
 </section>
 <section id="consequentialist-analysis-weighing-welfare" class="level2">
 <h2 class="anchored" data-anchor-id="consequentialist-analysis-weighing-welfare">Consequentialist Analysis: Weighing Welfare</h2>
 <p>A utilitarian analysis of piracy must consider both the harms and benefits it generates. On the harm side:<br>
 - <strong>Economic losses:</strong> Global online piracy costs the U.S. economy at least $29.2 billion in lost revenue annually, with 200,000-500,000 jobs lost and $47.5-115.3 billion in GDP impact <span class="citation" data-cites="piracy_impact">(<a href="#ref-piracy_impact" role="doc-biblioref">U.S. Chamber of Commerce, 2019</a>)</span>.<br>
 - <strong>Tax shortfalls:</strong> Pirated goods bypass income, sales, and VAT contributions, directly eroding public budgets.<br>
-- <strong>Cybersecurity harm:</strong> Piracy sites are a primary vector for malware, ransomware, and spyware. Users with piracy apps are three times more likely to suffer infections, with significant impact in sensitive sectors such as healthcare and finance <span class="citation" data-cites="DCA_cybersecurity2021">(<a href="#ref-DCA_cybersecurity2021" role="doc-biblioref">Digital Citizens Alliance, 2021</a>)</span>. See <a href="./consumers.html">The Consumer’s Perspective</a> for a detailed account of the security risks involved.<br>
-- <strong>Innovation disincentive:</strong> If piracy reduces creator earnings, it risks discouraging future production, which is a harm that ultimately falls on the public <span class="citation" data-cites="piracy_legal">(<a href="#ref-piracy_legal" role="doc-biblioref">Danaher et al., 2013</a>)</span>.<br>
-However, consequentialism does not yield a straightforward verdict. Piracy also generates welfare: students in low-income countries access textbooks they could never afford; individuals reach cultural works priced beyond their means. Pistorius and Mwim <span class="citation" data-cites="impact_piracy_learning">(<a href="#ref-impact_piracy_learning" role="doc-biblioref">Pistorius &amp; Odirachukwu, 2019</a>)</span> warn that aggressive technological protections “may hinder data literacy, access to works, teaching and learning, particularly in developing communities.” The economic drivers behind this — subscription fragmentation, purchasing power gaps, and regional pricing failures — are examined in detail in <a href="./consumers.html">The Consumer’s Perspective</a>. Therefore, based on the utilitarian framework, harms exist on both sides, and the optimal policy must weigh them carefully.</p>
+- <strong>Cybersecurity harm:</strong> Piracy sites are primary sources of malware, ransomware, and spyware. Users with piracy apps are three times more likely to suffer infections, with a significant impact in sensitive sectors such as healthcare and finance <span class="citation" data-cites="DCA_cybersecurity2021">(<a href="#ref-DCA_cybersecurity2021" role="doc-biblioref">Digital Citizens Alliance, 2021</a>)</span>. The section <a href="./consumers.html">The Consumer’s Perspective</a> provides a detailed account of the security risks involved.<br>
+- <strong>Innovation disincentive:</strong> Since piracy reduces creator earnings, it could discourage future production and innovation, which ultimately harms the public <span class="citation" data-cites="piracy_legal">(<a href="#ref-piracy_legal" role="doc-biblioref">Danaher et al., 2013</a>)</span>.</p>
+<p>However, consequentialism does not yield a straightforward verdict. Piracy also generates welfare: students in low-income countries access textbooks they could never afford; individuals reach cultural works priced beyond their means. Pistorius and Mwim <span class="citation" data-cites="impact_piracy_learning">(<a href="#ref-impact_piracy_learning" role="doc-biblioref">Pistorius &amp; Mwim, 2019</a>)</span> warn that aggressive technological protections “may hinder data literacy, access to works, teaching and learning, particularly in developing communities.” The economic drivers behind this such as subscription fragmentation, purchasing power gaps, and regional pricing failures, are examined in detail in <a href="./consumers.html">The Consumer’s Perspective</a>. Therefore, based on the utilitarian framework, harms exist on both sides, and the optimal policy must weigh them carefully.</p>
 </section>
 <section id="policy-implications" class="level2">
 <h2 class="anchored" data-anchor-id="policy-implications">Policy Implications</h2>
 <p>Across all four frameworks, the analysis converges on a balanced framework rather than full prohibition:<br>
-- <strong>Proportionate enforcement:</strong> Focus criminal penalties on commercial-scale piracy; avoid prosecuting individuals driven by inaccessibility.<br>
-- <strong>Demand-side reform:</strong> Expand affordable legal alternatives; evidence suggests access reduces piracy more effectively than enforcement alone <span class="citation" data-cites="piracy_legal">(<a href="#ref-piracy_legal" role="doc-biblioref">Danaher et al., 2013</a>)</span>. The commercial case for this — illustrated by Steam’s success in Russia — is explored in <a href="./consumers.html">The Consumer’s Perspective</a>.<br>
+- <strong>Proportionate enforcement:</strong> Focus criminal penalties on commercial-scale piracy and avoid prosecuting individuals driven by inaccessibility.<br>
+- <strong>Demand-side reform:</strong> Expand affordable legal alternatives, as evidence suggests access reduces piracy more effectively than enforcement alone <span class="citation" data-cites="piracy_legal">(<a href="#ref-piracy_legal" role="doc-biblioref">Danaher et al., 2013</a>)</span>. The commercial case for this, illustrated by Steam’s success in Russia, is explored in <a href="./consumers.html">The Consumer’s Perspective</a>.<br>
 - <strong>International equity reform:</strong> Push for stronger educational fair-use exceptions and development-friendly treaty terms within WIPO and WTO.<br>
 - <strong>Copyright reform:</strong> Ensure copyright terms and exceptions genuinely serve the public interest, not just incumbent industries.</p>
 </section>
 <section id="conclusion" class="level2">
 <h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
-<p>From a government’s perspective, digital piracy is ethically problematic, yet no framework grants governments unconditional moral authority to enforce without reflection. Consequentialism demands that access gains be weighed alongside enforcement benefits; social contract theory demands that both sides of the copyright bargain be honored. Taken together, the frameworks demand not just the prohibition of piracy, but the construction of a system in which legal access is genuinely available to all. Until that system exists, the government’s moral standing to condemn piracy unconditionally remains incomplete.</p>
+<p>From a government’s perspective, digital piracy is ethically problematic, yet no framework grants governments unconditional moral authority to enforce without reflection. Consequentialism demands that access gains be weighed alongside enforcement benefits; social contract theory demands that both sides of the copyright bargain be honored. Taken together, the frameworks demand not just the prohibition of piracy, but the construction of a system in which legal access to digital products is fairly available to everyone. Until that system exists, the government’s moral standing to condemn piracy unconditionally remains incomplete.</p>
 </section>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>
@@ -360,7 +433,7 @@ Internet Encyclopedia of Philosophy. (n.d.). <em>Social contract theory</em>. Re
 Korsgaard, C. (2012). <em>Kant: Groundwork of the metaphysics of morals</em>. Cambridge University Press. <a href="https://www.cambridge.org/highereducation/books/kant-groundwork-of-the-metaphysics-of-morals/3C27822145D94F9E2F27362C1089810C#contents">https://www.cambridge.org/highereducation/books/kant-groundwork-of-the-metaphysics-of-morals/3C27822145D94F9E2F27362C1089810C#contents</a>
 </div>
 <div id="ref-impact_piracy_learning" class="csl-entry" role="listitem">
-Pistorius, T., &amp; Odirachukwu, M. (2019). <em>The impact of digital copyright law and policy on access to knowledge and learning</em>. <a href="https://www.researchgate.net/publication/340395842_The_impact_of_digital_copyright_law_and_policy_on_access_to_knowledge_and_learning">https://www.researchgate.net/publication/340395842_The_impact_of_digital_copyright_law_and_policy_on_access_to_knowledge_and_learning</a>
+Pistorius, T., &amp; Mwim, O. (2019). <em>The impact of digital copyright law and policy on access to knowledge and learning</em>. <a href="https://www.researchgate.net/publication/340395842_The_impact_of_digital_copyright_law_and_policy_on_access_to_knowledge_and_learning">https://www.researchgate.net/publication/340395842_The_impact_of_digital_copyright_law_and_policy_on_access_to_knowledge_and_learning</a>
 </div>
 <div id="ref-piracy_impact" class="csl-entry" role="listitem">
 U.S. Chamber of Commerce. (2019). <em>Impacts of digital video piracy on the u.s. economy</em>. <a href="https://www.uschamber.com/assets/documents/Digital_Video_Piracy_June_2019.pdf">https://www.uschamber.com/assets/documents/Digital_Video_Piracy_June_2019.pdf</a>
@@ -372,60 +445,115 @@ U.S. Chamber of Commerce. (2019). <em>Impacts of digital video piracy on the u.s
 
 </main> <!-- /main -->
 <script>
+
 (function () {
+
   document.addEventListener('DOMContentLoaded', function () {
+
     var navLinks = Array.from(
+
       document.querySelectorAll('.navbar-nav .nav-link[href]')
+
     ).filter(function (a) { return !a.closest('.dropdown-menu'); });
 
+
+
     var activeIndex = navLinks.findIndex(function (a) {
+
       return a.classList.contains('active');
+
     });
+
     if (activeIndex === -1) return;
 
+
+
     var prev = activeIndex > 0 ? navLinks[activeIndex - 1] : null;
+
     var next = activeIndex < navLinks.length - 1 ? navLinks[activeIndex + 1] : null;
+
     if (!prev && !next) return;
 
+
+
     var nav = document.createElement('nav');
+
     nav.className = 'page-nav-footer';
+
     nav.setAttribute('aria-label', 'Page navigation');
 
+
+
     var prevSlot = document.createElement('span');
+
     if (prev) {
+
       var pa = document.createElement('a');
+
       pa.href = prev.getAttribute('href');
+
       pa.className = 'page-nav-btn page-nav-prev';
+
       pa.innerHTML =
+
         '<span class="page-nav-arrow">&#8592;</span>' +
+
         '<span class="page-nav-label">' +
+
           '<span class="page-nav-hint">Previous</span>' +
+
           '<span class="page-nav-title">' + prev.textContent.trim() + '</span>' +
+
         '</span>';
+
       prevSlot.appendChild(pa);
+
     }
+
     nav.appendChild(prevSlot);
 
+
+
     var nextSlot = document.createElement('span');
+
     if (next) {
+
       var na = document.createElement('a');
+
       na.href = next.getAttribute('href');
+
       na.className = 'page-nav-btn page-nav-next';
+
       na.innerHTML =
+
         '<span class="page-nav-label">' +
+
           '<span class="page-nav-hint">Next</span>' +
+
           '<span class="page-nav-title">' + next.textContent.trim() + '</span>' +
+
         '</span>' +
+
         '<span class="page-nav-arrow">&#8594;</span>';
+
       nextSlot.appendChild(na);
+
     }
+
     nav.appendChild(nextSlot);
 
+
+
     var main = document.querySelector('main.content');
+
     if (main) main.appendChild(nav);
+
   });
+
 })();
+
 </script>
+
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
